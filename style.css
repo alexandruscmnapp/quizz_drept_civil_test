@@ -14,51 +14,41 @@ body {
     background-color: #eef1f5;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     background: white;
-    padding: 30px 20px;
+    padding: 24px 16px;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    width: 90%;
+    max-width: 600px;
+    margin: 32px auto;
 }
 
 h1 {
     text-align: center;
     color: var(--primary);
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.6em;
+    margin-bottom: 16px;
 }
 
 #question {
-    font-size: 1.4em;
-    margin-bottom: 20px;
+    font-size: 1.2em;
+    margin-bottom: 16px;
     color: #333;
 }
 
-#options button {
-    background-color: white;
-    color: #333;
-    border: 2px solid var(--primary);
-    padding: 14px;
-    border-radius: var(--border-radius);
-    margin: 10px 0;
-    width: 100%;
-    font-size: 1.1em;
-    transition: background-color 0.2s ease;
+#options label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.05em;
 }
 
-#options button:hover {
-    background-color: var(--primary);
-    color: white;
-    cursor: pointer;
+#options input[type="checkbox"] {
+    margin-right: 8px;
 }
 
 #feedback {
@@ -70,11 +60,11 @@ h1 {
 
 #next-button {
     display: block;
-    margin: 30px auto 0;
+    margin: 25px auto 0;
     background-color: var(--primary);
     color: white;
     border: none;
-    padding: 14px 25px;
+    padding: 12px 20px;
     font-size: 1.1em;
     border-radius: var(--border-radius);
     cursor: pointer;
@@ -93,8 +83,8 @@ h1 {
 #score {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 15px;
-    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-size: 1.1em;
     color: #333;
 }
 
@@ -105,13 +95,4 @@ h1 {
 #history ul {
     padding-left: 20px;
     font-size: 1em;
-}
-html, body {
-    height: 100%;
-}
-
-.container {
-    min-height: 100vh;
-    height: auto !important;
-    height: 100%;
 }
