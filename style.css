@@ -113,3 +113,12 @@ h1 {
         font-size: 0.95em;
     }
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 100%;
+        max-width: 95%;
+        min-height: 90vh;
+    }
+}
