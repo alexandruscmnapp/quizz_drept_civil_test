@@ -8,6 +8,8 @@ questions.sort(() => Math.random() - 0.5);
 function loadNextQuestion() {
     document.getElementById("feedback").innerText = "";
     document.getElementById("next-button").disabled = true;
+    document.getElementById("next-button").innerText = "Verifică răspunsul";
+    document.getElementById("next-button").onclick = handleAnswer;
 
     if (currentIndex >= questions.length) {
         saveScore(score);
@@ -28,47 +30,80 @@ function loadNextQuestion() {
     currentQuestion = questions[currentIndex];
     answered = false;
 
-    document.getElementById("question").innerText = currentQuestion.question;
+    const qText = document.getElementById("question");
     const optionsDiv = document.getElementById("options");
+    qText.innerText = currentQuestion.question;
     optionsDiv.innerHTML = "";
 
     currentQuestion.options.forEach((opt, idx) => {
-        const btn = document.createElement("button");
-        btn.innerText = opt;
-        btn.onclick = () => handleAnswer(btn, idx);
-        btn.disabled = false;
-        optionsDiv.appendChild(btn);
+        const label = document.createElement("label");
+        label.style.display = "block";
+        label.style.marginBottom = "8px";
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.name = "option";
+        checkbox.value = idx;
+
+        checkbox.onchange = () => {
+            const selected = document.querySelectorAll("input[name='option']:checked");
+            document.getElementById("next-button").disabled = selected.length === 0;
+        };
+
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(" " + opt));
+        optionsDiv.appendChild(label);
     });
 
     currentIndex++;
 }
 
-function handleAnswer(button, selectedIndex) {
+function handleAnswer() {
     if (answered) return;
+    answered = true;
 
-    const correctIndex = currentQuestion.correctIndex;
     const feedback = document.getElementById("feedback");
 
-    answered = true;
-    document.getElementById("next-button").disabled = false;
+    if (!Array.isArray(currentQuestion.correctIndexes)) {
+        feedback.innerText = "Eroare: întrebarea nu are răspunsuri corecte definite.";
+        feedback.style.color = "orange";
+        return;
+    }
 
-    const buttons = document.querySelectorAll("#options button");
-    buttons.forEach((btn, idx) => {
-        btn.disabled = true;
-        if (idx === correctIndex) btn.style.backgroundColor = "#c8e6c9";
-        if (idx === selectedIndex && idx !== correctIndex) btn.style.backgroundColor = "#ffcdd2";
-    });
+    const selected = Array.from(document.querySelectorAll("input[name='option']:checked")).map(el => parseInt(el.value));
+    const correct = currentQuestion.correctIndexes;
 
-    if (selectedIndex === correctIndex) {
+    const isCorrect = arraysEqual(selected.sort(), correct.slice().sort());
+
+    if (isCorrect) {
         feedback.innerText = "Răspuns corect!";
         feedback.style.color = "green";
         score++;
     } else {
-        feedback.innerText = "Răspuns greșit!";
+        
+    feedback.innerHTML = "Răspuns greșit!<br><span style='color:green;'>Răspunsuri corecte:<br>" + 
+        currentQuestion.correctIndexes.map(i => currentQuestion.options[i]).join("<br>") + "</span>";
+    
         feedback.style.color = "red";
     }
 
     updateScoreDisplay();
+    document.getElementById("next-button").innerText = "Următoarea întrebare";
+    
+    currentQuestion.correctIndexes.forEach(i => {
+        const labels = document.querySelectorAll("#options label");
+        if (labels[i]) {
+            labels[i].style.backgroundColor = "#d4edda";
+            labels[i].style.borderRadius = "6px";
+            labels[i].style.padding = "6px";
+        }
+    });
+    document.getElementById("next-button").onclick = loadNextQuestion;
+    
+}
+
+function arraysEqual(a, b) {
+    return a.length === b.length && a.every((val, index) => val === b[index]);
 }
 
 function updateScoreDisplay() {
@@ -83,7 +118,7 @@ function restartQuiz() {
         <div id="question"></div>
         <div id="options"></div>
         <div id="feedback"></div>
-        <button id="next-button" onclick="loadNextQuestion()" disabled>Next</button>
+        <button id="next-button" onclick="handleAnswer()" disabled>Verifică răspunsul</button>
     `;
     document.getElementById("score").style.display = "block";
     updateScoreDisplay();
