@@ -53,11 +53,11 @@ function loadNextQuestion() {
     answered = false;
 
     const qText = document.getElementById("question");
-    const optionsDiv = document.getElementById("options");
+    const optionsDiv = document.getElementById("answers");
     qText.innerText = currentQuestion.question;
     optionsDiv.innerHTML = "";
 
-    currentQuestion.options.forEach((opt, idx) => {
+    currentQuestion.answers.forEach((opt, idx) => {
         const label = document.createElement("label");
         label.style.display = "flex";
         label.style.alignItems = "center";
@@ -82,7 +82,7 @@ function loadNextQuestion() {
         optionsDiv.appendChild(label);
     });
 
-    saveProgress();  // salvăm progresul exact după afișare
+    saveProgress();
 }
 
 function handleAnswer() {
@@ -102,13 +102,13 @@ function handleAnswer() {
         score++;
     } else {
         feedback.innerHTML = "<span style='color:red;'>Răspuns greșit!</span><br><span style='color:green;'>Răspunsuri corecte:<br>" +
-            correct.map(i => currentQuestion.options[i]).join("<br>") + "</span>";
+            correct.map(i => currentQuestion.answers[i]).join("<br>") + "</span>";
     }
 
     updateScoreDisplay();
 
     currentQuestion.correctIndexes.forEach(i => {
-        const labels = document.querySelectorAll("#options label");
+        const labels = document.querySelectorAll("#answers label");
         if (labels[i]) {
             labels[i].style.backgroundColor = "#d4edda";
             labels[i].style.borderRadius = "6px";
@@ -136,10 +136,12 @@ function restartQuiz() {
     currentIndex = 0;
     score = 0;
     shuffledQuestions = [...questions];
-    shuffledQuestions.sort(() => Math.random() - 0.5);
+    const shuffle = JSON.parse(localStorage.getItem("quiz_shuffle"));
+    if (shuffle) shuffledQuestions.sort(() => Math.random() - 0.5);
+
     document.getElementById("quiz-container").innerHTML = `
         <div id="question"></div>
-        <div id="options"></div>
+        <div id="answers"></div>
         <div id="feedback"></div>
         <button id="next-button" onclick="handleAnswer()" disabled>Verifică răspunsul</button>
     `;
@@ -170,16 +172,27 @@ function generateHistoryHTML() {
 
 window.onload = () => {
     const saved = localStorage.getItem("quiz_progress");
-    if (saved) {
+    const file = localStorage.getItem("quiz_file");
+    if (saved && file) {
         if (confirm("Ai un quiz în desfășurare. Vrei să continui de unde ai rămas?") === false) {
             localStorage.removeItem("quiz_progress");
+        } else {
+            const script = document.createElement("script");
+            script.src = file;
+            script.onload = () => {
+                if (!loadProgress()) {
+                    shuffledQuestions = [...questions];
+                    const shuffle = JSON.parse(localStorage.getItem("quiz_shuffle"));
+                    if (shuffle) shuffledQuestions.sort(() => Math.random() - 0.5);
+                }
+				const savedTitle = localStorage.getItem("quiz_title");
+				if (savedTitle) document.getElementById("current-title").innerText = savedTitle;
+                document.getElementById("test-select-area").style.display = "none";
+                document.getElementById("quiz-container").style.display = "block";
+                document.getElementById("score").style.display = "block";
+                loadNextQuestion();
+            };
+            document.body.appendChild(script);
         }
     }
-
-    if (!loadProgress()) {
-        shuffledQuestions = [...questions];
-        shuffledQuestions.sort(() => Math.random() - 0.5);
-    }
-    updateScoreDisplay();
-    loadNextQuestion();
 };
