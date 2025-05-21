@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chestionar Drept</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Chestionar Drept</h1>
+
+    <div id="test-select-area">
+      <label for="testSelector">Alege un capitol:</label>
+      <select id="testSelector">
+        <option value="">-- Selectează un capitol --</option>
+        <option value="tests/test_drept_civil_teoria_generala_si_persoane.js">DREPT CIVIL. TEORIA GENERALĂ ȘI PERSOANE</option>
+        <option value="tests/test_drept_civil_drepturi_reale.js">DREPT CIVIL. DREPTURI REALE</option>
+        <option value="tests/test_drept_civil_obligatii.js">DREPT CIVIL. OBLIGAȚII</option>
+        <option value="tests/test_drept_civil_contracte_speciale.js">DREPT CIVIL. CONTRACTE SPECIALE</option>
+        <option value="tests/test_drept_civil_succesiuni.js">DREPT CIVIL. SUCCESIUNI</option>
+        <option value="tests/test_drept_procesual_civil.js">DREPT PROCESUAL CIVIL</option>
+        <option value="tests/test_drept_penal_-_parte_generala.js">DREPT PENAL – PARTE GENERALĂ</option>
+        <option value="tests/test_drept_penal_-_parte_speciala.js">DREPT PENAL – PARTE SPECIALĂ</option>
+        <option value="tests/test_drept_penal_partea_generala_si_partea_speciala.js">DREPT PENAL. PARTEA GENERALĂ ȘI PARTEA SPECIALĂ</option>
+        <option value="tests/test_drept_procesual_penal_partea_generala_si_parte_speciala.js">DREPT PROCESUAL PENAL. PARTEA GENERALĂ ȘI PARTE SPECIALĂ</option>
+      </select>
+      <br><br>
+      <label><input type="checkbox" id="shuffleCheckbox" checked> Întrebări aleatorii</label>
+      <br><br>
+      <button onclick="loadTest()">Începe testul</button>
+    </div>
+
+    <h2 id="current-title" style="text-align:center;"></h2>
+    <div id="score" style="display:none;">Scor: 0 / 0</div>
+    <div id="quiz-container" style="display:none;">
+      <div id="question"></div>
+      <div id="answers"></div>
+      <div id="feedback"></div>
+      <button id="next-button" onclick="handleAnswer()" disabled>Verifică răspunsul</button>
+    </div>
+  </div>
+
+  <script>
+    function loadTest() {
+      const selectedFile = document.getElementById('testSelector').value;
+      const selectedText = document.getElementById('testSelector').selectedOptions[0].textContent;
+      const shuffle = document.getElementById('shuffleCheckbox').checked;
+      if (!selectedFile) return alert('Te rog selectează un capitol.');
+
+      localStorage.setItem("quiz_shuffle", JSON.stringify(shuffle));
+      localStorage.setItem("quiz_file", selectedFile);
+	  localStorage.setItem("quiz_title", selectedText);
+      document.getElementById('test-select-area').style.display = 'none';
+      document.getElementById('current-title').innerText = selectedText;
+
+      const script = document.createElement('script');
+      script.src = selectedFile;
+      script.onload = () => {
+        document.getElementById('quiz-container').style.display = 'block';
+        document.getElementById('score').style.display = 'block';
+        restartQuiz();
+      };
+      document.body.appendChild(script);
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
