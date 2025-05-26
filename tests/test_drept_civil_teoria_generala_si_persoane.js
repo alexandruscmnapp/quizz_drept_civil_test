@@ -222,9 +222,9 @@ const questions = [
   {
     "question": "Profitând de vârsta înaintată și starea de nevoie în care se afla Q., cumpărătorul W. l-a determinat pe primul să-i vândă, la data de 25.07.2016, cu un preț de aproximativ 40% din valoarea reală de piață a bunului, un teren pe care vânzătorul îl recuperase de la stat în procesul de restituire. La data de 10.03.2018, cumpărătorul a fost chemat în judecată de Q. pentru anularea contractului de vânzare pentru leziune. Pârâtul W. a formulat o singură apărare arătând că, între timp, prețul de piață al terenului a scăzut, la data introducerii acţiunii, fiind chiar mai mic decât cel plătit vânzătorului în anul 2016. Instanţa:",
     "answers": [
-      "",
       "a) va respinge acțiunea ca neîntemeiată;",
-      "b) va admite acțiunea;"
+      "b) va admite acțiunea;",
+      "c) va respinge acțiunea ca fiind prescris dreptul material la acțiune."
     ],
     "correctIndexes": [
       0
@@ -580,9 +580,9 @@ const questions = [
   {
     "question": "X., în vârstă de 17 ani, pretinzând că este major, a încheiat un contract cu Y. prin care i-a vândut acestuia din urmă un telefon mobil cu prețul de 1.200 lei. Din acest preţ, X. și-a achitat o datorie în valoare de 200 lei, și-a cumpărat cu 600 de lei un alt telefon și a organizat o petrecere pentru prietenii săi, pentru care a cheltuit suma de 300 lei, rămânând cu 100 lei. Ulterior, X. a solicitat anularea contractului pentru lipsa capacității depline de exercițiu şi restituirea telefonului, iar Y. a solicitat restituirea prețului. Instanţa:",
     "answers": [
-      "",
       "a) va respinge cererea în anularea contractului, reținând săvârşirea de către X. a unui delict civil prin declarația că este capabil să contacteze și considerând că menținerea actului ca valabil este cea mai potrivită formă de reparare a prejudiciului ce ar fi fost cauzat lui Y;",
-      "b) va dispune anularea contractului, obligându-l pe Y. să restituie telefonul, iar pe X. să-i restituie lui Y. suma de 900 lei;"
+      "b) va dispune anularea contractului, obligându-l pe Y. să restituie telefonul, iar pe X. să-i restituie lui Y. suma de 900 lei;",
+      "c) va dispune anularea contractului, obligându-l pe Y. să restituie telefonul, iar pe X. să-i plătească lui Y. suma de 1.200 lei, dacă va stabili că X., cu intenția de a face restituirea imposibilă, a risipit o parte din prețul obținut."
     ],
     "correctIndexes": [
       1,
