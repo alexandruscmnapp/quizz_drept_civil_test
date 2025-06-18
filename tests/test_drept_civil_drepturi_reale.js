@@ -16,8 +16,8 @@ const questions = [
     "question": "Reprezinta modalitati juridice ale dreptului de proprietate:",
     "answers": [
       "a) numai proprietatea comună pe cote-parti obisnuit sau temporară;",
-      "b) proprietatea comuna pe cote-parti obisnuit sau temporarã si proprietatea comună pe cote-parti fortată;",
-      "c) numai proprietatea comună pe cote-parti fortat."
+      "b) proprietatea comuna pe cote-parti obisnuita sau temporarã si proprietatea comună pe cote-parti fortată;",
+      "c) numai proprietatea comună pe cote-parti fortata."
     ],
     "correctIndexes": [
       1
@@ -29,7 +29,7 @@ const questions = [
     "answers": [
       "a) contracte;",
       "b) testament;",
-      "c) nu poate fac obiectul unei conventii"
+      "c) nu poate face obiectul unei conventii"
     ],
     "correctIndexes": [
       0,
@@ -68,7 +68,7 @@ const questions = [
     "answers": [
       "a) dobânditorul bunului sub conditie rezolutorie poate exercita toate prerogativele unui proprietar pur simplu;",
       "b) conditia rezolutorie, înainte de a se indeplini, nu afecteaza existenta si efectele dreptului, cu toate atributele sale;",
-      "c) este recunoscut dobânditorului sub conditie rezolutorie dreptul de a efectua, cu privire la bun, acte de administrare i acte de dispozitie."
+      "c) este recunoscut dobânditorului sub conditie rezolutorie dreptul de a efectua, cu privire la bun, acte de administrare si acte de dispozitie."
     ],
     "correctIndexes": [
       0,
@@ -78,7 +78,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Toate actele juridice consimtite de un proprietar sub condifie recolutorie, care se implineste, acte facute in favoarea tertelor persoane,",
+    "question": "Toate actele juridice consimtite de un proprietar sub conditie recolutorie, care se implineste, acte facute in favoarea tertelor persoane, urmeaza sa se desfiinteze pe baza principiului statuat prin adagiul:",
     "answers": [
       "a) res inter alios acta aliis neque nocere, neque prodesse potest;",
       "b) qui prior tempore, potior jure;",
@@ -93,8 +93,8 @@ const questions = [
     "question": "Efectul retroactiv al anulării actului translativ de proprietate se produce:",
     "answers": [
       "a) numai dintre parti;",
-      "b) numai fat de tertele persoane;",
-      "c) in raporturile dintre parti, dar si fat de tertele persoane"
+      "b) numai fata de tertele persoane;",
+      "c) in raporturile dintre parti, dar si fata de tertele persoane"
     ],
     "correctIndexes": [
       2
@@ -102,9 +102,9 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "In cazul dreptului de proprietate comună pe cote-parti obisnuitã sau temporara, dreptul de proprietate al fierui coproprietar este:",
+    "question": "In cazul dreptului de proprietate comună pe cote-parti obisnuitã sau temporara, dreptul de proprietate al fiecarui coproprietar este:",
     "answers": [
-      "a) determinat in mod abstract, sub forma unei fractiuni matematice, bunul find divizat corespunztor acestor cote-parti;",
+      "a) determinat in mod abstract, sub forma unei fractiuni matematice, bunul find divizat corespunzator acestor cote-parti;",
       "b) determinat in mod abstract, sub forma unei fractiuni matematice, bunul neffind divizat corespunzator cotelor-parti;",
       "c) determinat in mod concret prin stabilirea unor portiuni din bunul comun."
     ],
@@ -131,7 +131,7 @@ const questions = [
     "answers": [
       "a) transformarea posesiei viciate in posesie utila nu se produce odata cu încetarea viciului;",
       "b) viciul violentei posesiei este unul temporar, intrucât posesia redevine utilã, sub acest aspect, de indata ce actele de violent ale persoanei care exercită posesia au incetat;",
-      "c) viciul violentei posesiei este un viciu relativ, deoarece poate fi invocat numai de cel impotriva căruia s-a exercitat violenta, fafã de celelalte persone posesia nefind afectat de acest viciu."
+      "c) viciul violentei posesiei este un viciu relativ, deoarece poate fi invocat numai de cel impotriva căruia s-a exercitat violenta, fatã de celelalte persone posesia nefind afectata de acest viciu."
     ],
     "correctIndexes": [
       1,
@@ -142,9 +142,9 @@ const questions = [
   {
     "question": "Coproprietatea obisnuita:",
     "answers": [
-      "a) poate inceta si ca urmare a dobândirii de către unul dintre titulari a cotelor-parti ce apartin celorlalti titulari ori prin incheierea unor contracte cu fiecare dintre acestia având ca obiect cota-parte a",
-      "b) nearia din directl depro a dispari bunului ce forma obiectul",
-      "c) poate inceta si ca urmare a instrainarii, de ctre toti coproprietarii, a bunului către un tert, care devine astfel proprietar exclusiv al acelui bun, respectiv ca urmare a instrainarii de către fiecare dintre coproprietari, a cotei-parti către acelasi dobânditor."
+      "a) poate inceta ca si urmare a dobândirii de către unul dintre titulari a cotelor-parti ce apartin celorlalti titulari ori prin incheierea unor contracte cu fiecare dintre acestia având ca obiect cota-parte a fiecaruia din dreptul de proprietate",
+      "b) nu poate inceta ca urmare a disparitiei bunului ce forma obiectul dreptului de proprietate comuna",
+      "c) poate inceta ca si urmare a instrainarii, de ctre toti coproprietarii, a bunului către un tert, care devine astfel proprietar exclusiv al acelui bun, respectiv ca urmare a instrainarii de către fiecare dintre coproprietari, a cotei-parti către acelasi dobânditor."
     ],
     "correctIndexes": [
       0,
@@ -156,8 +156,8 @@ const questions = [
     "question": "In ceea ce priveste dreptul de proprietate asupra unei constructii realizate de către:",
     "answers": [
       "a) proprietarul terenului, cu materiale proprii, aceast situatie reprezint un caz de accesiune imobiliar artificialã a cărui recunoastere judiciar se poate face pe calea unei actini in constatare, chiar in lipsa autorizatiei de construire si a procesului-verbal de receptie la terminarea lucrarilor;",
-      "b) biterta persona pe terenul proprietatea altei persoane, aceasta din urma poate solicita instantei obligarea autorului lucrarii sã cumpere imobilul la valoarea de circulatie pe care acesta il are la data solutionarii cererii de chemare in judecată;",
-      "c) Proprietarul terenului cu materialele altei persoane, dobândeste dreptul de proprietate asupra constructiei din momentul inceperii lucrarii, pe măsura realizari ei, indiferent dacã a fost sau nu de bunăcredinta, cât vreme prin lege sau prin act juridic nu se prevede altfel."
+      "b) terta persoana pe terenul proprietatea altei persoane, aceasta din urma poate solicita instantei obligarea autorului lucrarii sã cumpere imobilul la valoarea de circulatie pe care acesta il are la data solutionarii cererii de chemare in judecată;",
+      "c) proprietarul terenului cu materialele altei persoane, aceasta dobândeste dreptul de proprietate asupra constructiei din momentul inceperii lucrarii, pe măsura realizarii ei, indiferent dacã a fost sau nu de bunăcredinta, câta vreme prin lege sau prin act juridic nu se prevede altfel."
     ],
     "correctIndexes": [
       2
@@ -167,7 +167,7 @@ const questions = [
   {
     "question": "Actiunea în revendicare:",
     "answers": [
-      "a) poate fi introdusa de ctre un singur coproprietar, situatie in care pârâtul poate cere instantei introducerea in cauzã a celorlalti coproprietari in calitate de reclamanti;",
+      "a) poate fi introdusa de catre un singur coproprietar, situatie in care pârâtul poate cere instantei introducerea in cauzã a celorlalti coproprietari in calitate de reclamanti;",
       "b) dacă va fi admis, va avea ca efect obligarea pârâtului la plata de despagubiri, dacã bunul a pierit din culpa sa, acestea find evaluate in raport cu momentul restituirii;",
       "c) este imprescriptibila in toate cazurile,"
     ],
@@ -180,9 +180,9 @@ const questions = [
   {
     "question": "Dreptul de proprietate publica:",
     "answers": [
-      "a) se stinge daca bunul a fost trecut in domeniu privat, cu respectare",
+      "a) se stinge daca bunul a fost trecut in domeniu privat, cu respectarea conditiilor prevazute de lege",
       "b) este susceptibil de stingere prin neuz;",
-      "c) poate fi doândit prin uzucapiune sau, dupã caz, prin posesia de bună-credint asupra bunurilor mobil."
+      "c) poate fi dobândit prin uzucapiune sau, dupã caz, prin posesia de bună-credinta asupra bunurilor mobil."
     ],
     "correctIndexes": [
       0
@@ -193,8 +193,8 @@ const questions = [
     "question": "Dreptul de proprietate privata:",
     "answers": [
       "a) are caracter relativ, spre deosebire de dreptul de proprietate publică;",
-      "b) are caracter absolut, spre deosebire de reptul de proprietate publică;",
-      "c) in conditiile legii, este susceptibil de modalitati si dezmembrăminte, după caz"
+      "b) are caracter absolut, spre deosebire de dreptul de proprietate publică;",
+      "c) in conditiile legii, este susceptibil de modalitati si dezmembrăminte, după caz;"
     ],
     "correctIndexes": [
       2
@@ -205,8 +205,8 @@ const questions = [
     "question": "Este necesar acordul tuturor coproprietarilor:",
     "answers": [
       "a) pentru incheierea unui contract de comodat cu privire la bunul comun;",
-      "b) pentru incheierea unui contract de locatine a bunului comun mobil pe o durată de 2 ani;",
-      "c) pentru incheiere uni contract de intretinere, dacă proprietatea asupra bunului comun este transmis in schimbul intretinerii, ins numai in ipoteza in care în contract s-a stabilit că intretinerea se datoreaza pentru toat durata vietii creditorului intretinerii."
+      "b) pentru incheierea unui contract de locatiune a bunului comun mobil pe o durată de 2 ani;",
+      "c) pentru incheiere uni contract de intretinere, dacă proprietatea asupra bunului comun este transmisa in schimbul intretinerii, insa numai in ipoteza in care în contract s-a stabilit că intretinerea se datoreaza pentru toata durata vietii creditorului intretinerii."
     ],
     "correctIndexes": [
       0
@@ -216,9 +216,9 @@ const questions = [
   {
     "question": "Conventia de partaj:",
     "answers": [
-      "a) trebuie incheiat in formă autentica, sub sanctiunea nulitatii absolute, dacă are ca obiect cel putin un imobil, indiferent de valoarea acestuia;",
-      "b) este lovita de nulitate absolut, dacã un coproprietar, desi avea capacitate de exercitiu deplină, nu a participat la incheierea acesteia;",
-      "c) nu se poate incheia niciodat in ipoteza coproprietatii fortate"
+      "a) trebuie incheiata in formă autentica, sub sanctiunea nulitatii absolute, dacă are ca obiect cel putin un imobil, indiferent de valoarea acestuia;",
+      "b) este lovita de nulitate absoluta, dacã un coproprietar, desi avea capacitate de exercitiu deplină, nu a participat la incheierea acesteia;",
+      "c) nu se poate incheia niciodata in ipoteza coproprietatii fortate"
     ],
     "correctIndexes": [
       0,
@@ -227,7 +227,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Dreptul de superficie:",
+    "question": "Dreptul la superficie:",
     "answers": [
       "a) este un drept temporar, ce poate fi constituit pe o durat de cel mult 99 de ani, fara posibilitatea reinnoirii, la implinirea termenului;",
       "b) nu poate inceta pe calea partajului intre superficiar si proprietarul terenului;",
@@ -239,11 +239,11 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Intervertirea detentie precare in posesie are loc atunci cand detentorul precar:",
+    "question": "Intervertirea detentiei precare in posesie are loc atunci cand detentorul precar:",
     "answers": [
-      "a) instrineaza bunul printr-un act translativ de proprietate cu titlu particular, doar dacă doânditorul este de bună-credintă;",
-      "b) notificã posesorului refuzul de a-i restitui bunul până la indeplinirea de către acesta din urm a obligatiilor ce-i revin in temeiul contractului incheiat cu detentorul precar;",
-      "c) incheie, cu bună-credita, un act translativ de proprietate cu titlu particular cu o alt persoană decât proprietarul bunului."
+      "a) instraineaza bunul printr-un act translativ de proprietate cu titlu particular, doar dacă doânditorul este de bună-credintă;",
+      "b) notificã posesorului refuzul de a-i restitui bunul până la indeplinirea de către acesta din urma a obligatiilor ce-i revin in temeiul contractului incheiat cu detentorul precar;",
+      "c) incheie, cu bună-credinta, un act translativ de proprietate cu titlu particular cu o alt persoană decât proprietarul bunului."
     ],
     "correctIndexes": [
       0,
@@ -268,7 +268,7 @@ const questions = [
     "question": "In materia actiunii in revendicare a unui bun proprietate privata:",
     "answers": [
       "a) dreptul la actiune este imprescriptibil, in toate cazurile;",
-      "b) hotărârea judectoreas prin care aceasta a fost admisã este",
+      "b) hotărârea judecatoreasca prin care aceasta a fost admisã este opozabila si poate fi executata si impotriva tertului dobanditor, in conditiile codului de procedura civila;",
       "c) pârât poate fi numai un posesor."
     ],
     "correctIndexes": [
@@ -279,8 +279,8 @@ const questions = [
   {
     "question": "In legatura cu vederea asupra proprietatii vecinului:",
     "answers": [
-      "a) nu este permis, in niciun caz, sã se facă fereastr in zidul comun;",
-      "b) este interzis balconul neparalel cu linia de hotar spre fondul invecinat la o distant mai mică de 2 metri de linia de hotar;",
+      "a) nu este permis, in niciun caz, sã se facă fereastra in zidul comun;",
+      "b) este interzis balconul neparalel cu linia de hotar spre fondul invecinat la o distanta mai mică de 2 metri de linia de hotar;",
       "c) proprietarul are dreptul de a-si deschide, fara limita de distanta, ferestre de lumina dacã sunt astfel construite incât sã impiedice vederea spre fondul invecinat."
     ],
     "correctIndexes": [
@@ -293,7 +293,7 @@ const questions = [
     "answers": [
       "a) creditorii unui coproprietar pot umäri silit cota lui parte din dreptul asupra bunului comun;",
       "b) creditorii unui coproprietar pot cere instantei imparteala bunului comun, caz in care urmãrirea se va face asupra partii de bun sau, după caz, asupra sumei de bani cuvenite debitorului;",
-      "c) creditorii care au un dept de garantie asupra bunului comun au dreptul sã urmãreascã silit bunul, in mâinile oricui s-ar gãsi, numai"
+      "c) creditorii care au un dept de garantie asupra bunului comun au dreptul sã urmãreascã silit bunul, in mâinile oricui s-ar gãsi, numai dupa partaj"
     ],
     "correctIndexes": [
       0,
@@ -304,7 +304,7 @@ const questions = [
   {
     "question": "Uzufructuarul:",
     "answers": [
-      "a) poate pretinde, la incetarea uzufructului, despagubiri pentru",
+      "a) poate pretinde, la incetarea uzufructului, despagubiri pentru imbunatatirile aduse unui bun mobil numai atunci cand prin acestea a sporit valoarea bunului",
       "b) nu are obligatia de a intocmi inventarul bunurilor mobile atunci când uzufructul asupra acestora este doândit prin uzucapiune;",
       "c) este tinut, in orice caz, sã respecte destinatia dat bunurilor de nudul proprietar."
     ],
@@ -331,7 +331,7 @@ const questions = [
     "answers": [
       "a) nu pot fi, in nicio situatie, exercitate de locatar;",
       "b) nu pot fi introduse, in nicio situatie, impotriva proprietarului;",
-      "c) nu pot fi introduse impotriva persoanei fat de care exist obligatia de restituire a bunului."
+      "c) nu pot fi introduse impotriva persoanei fata de care exista obligatia de restituire a bunului."
     ],
     "correctIndexes": [
       2
@@ -341,7 +341,7 @@ const questions = [
   {
     "question": "In materia coproprietatii:",
     "answers": [
-      "a) in cazul coproprietatii obisnuite, cotele-parti sunt prezumate a fi egale, până la proba contrar, care se poate face intotdeauna prin orice mijloc de prob;",
+      "a) in cazul coproprietatii obisnuite, cotele-parti sunt prezumate a fi egale, până la proba contrar, care se poate face intotdeauna prin orice mijloc de proba;",
       "b) in cazul coproprietatii obisnuite, actul care urmareste exclusiv infrumusetarea bunului comun nu se poate incheia decât cu acordul coproprietarilor ce detin majoritatea cotelor-parti;",
       "c) potrivit regimului juridic general aplicabil coproprietatii fortate, când bunul comun are caracter accesoriu, in absenta unei conventii contrare, cota-parte din drept a fiecãrui coproprietar se stabileste in functie de intinderea bunului principal."
     ],
@@ -354,8 +354,8 @@ const questions = [
     "question": "Servitutile:",
     "answers": [
       "a) se sting prin neuz timp de 10 ani, termenul incepând sã curgã de la data ultimului act contrar in cazul servitutilor continue;",
-      "b) de trecere se pot stinge prin rascumpărare, atunci când există o disproportie vadita intre utilitate care o procur fondului dominant si inconvenientele sau deprecierea provocat fondului aservit;",
-      "c) de a nu construi peste o anumit inaltime sunt servitufi aparente."
+      "b) de trecere se pot stinge prin rascumpărare, atunci când există o disproportie vadita intre utilitatea care o procura fondului dominant si inconvenientele sau deprecierea provocata fondului aservit;",
+      "c) de a nu construi peste o anumit inaltime sunt servituti aparente."
     ],
     "correctIndexes": [
       1
@@ -366,7 +366,7 @@ const questions = [
     "question": "In cazul regimului comunitatii legale:",
     "answers": [
       "a) sunt bunuri proprii bunurile doândite prin donatie, chiar dacă dispunătorul a preväzut, in mod expres, cã ele vor fi comune;",
-      "b) in toate cazurile, actele de instrinare având ca obiect bunuri comune nu pot fi incheiate decât cu acordul ambilor soti;",
+      "b) in toate cazurile, actele de instrainare având ca obiect bunuri comune nu pot fi incheiate decât cu acordul ambilor soti;",
       "c) sunt datorii comune ale sotilor obligatiile pe care acestia le-au contractat impreună."
     ],
     "correctIndexes": [
@@ -378,8 +378,8 @@ const questions = [
     "question": "In materia dreptului de uzufruct:",
     "answers": [
       "a) dacã bunul care face obiectul acestuia a fost distrus in intregime, din culpa exclusiv a unui tert, dreptul de uzufruct va continua asupra sumei de bani plätite de tert cu titlu de despăgubire;",
-      "b) indiferent de imprejurri, uzufructuarul nu are drept de dispozitie asupra bunului care face obiectul uzufructului;",
-      "c) dreptul de uzufruct constituit până la data la care un tert va ajunge la o anumit vârst se stinge dacă uzufructuarul decedeaza inainte de aceast dată."
+      "b) indiferent de imprejuriri, uzufructuarul nu are drept de dispozitie asupra bunului care face obiectul uzufructului;",
+      "c) dreptul de uzufruct constituit până la data la care un tert va ajunge la o anumit vârsta se stinge dacă uzufructuarul decedeaza inainte de aceasta dată."
     ],
     "correctIndexes": [
       0,
@@ -390,9 +390,9 @@ const questions = [
   {
     "question": "Actiunea posesorie:",
     "answers": [
-      "a) nu poate fi introdus in termenul legal de prescriptie de un an de la deposedare de cel care exercit o posesie viciata, chiar dacă deposedarea sa a fost violent;",
+      "a) nu poate fi introdus in termenul legal de prescriptie de un an de la deposedare de cel care exercit o posesie viciata, chiar dacă deposedarea sa a fost violenta;",
       "b) nu poate fi introdus impotriva unui tert de titularul unui drept de uzufruct viager asupra unei locuinte, intrucât acesta are la dispozitie actiunea confesorie;",
-      "c) poate fi introdus dacă exista motive temeinice sã se considere că bunul posedat poate fi distrus ori deteriorat ca urmare a unor lucrări, precum efectuarea unor spaturi pe fondul invecinat."
+      "c) poate fi introdus dacă exista motive temeinice sã se considere că bunul posedat poate fi distrus ori deteriorat ca urmare a unor lucrări, precum efectuarea unor sapaturi pe fondul invecinat."
     ],
     "correctIndexes": [
       2
@@ -427,7 +427,7 @@ const questions = [
     "question": "Posesia unui bun imobil inceteazã:",
     "answers": [
       "a) prin deposedare, dacă posesorul ramâne lipsit de posesia bunului mai mult de 6 luni;",
-      "b) prin transformarea sa n detentie precară;",
+      "b) prin transformarea sa in detentie precară;",
       "c) prin exercitarea sa de către posesor cu intermitente anormale in raport cu natura bunului."
     ],
     "correctIndexes": [
@@ -465,7 +465,7 @@ const questions = [
     "answers": [
       "a) nu pot fi introduse impotriva proprietarului;",
       "b) pot fi introduse de catre cel care exercita o posesie viciata, dacã tulburarea sau deposedarea este violenta,indiferent de durata posesiei sale;",
-      "c) pot fi introduse de cätre cel care exercita o posesie viciatã dacã tulburarea sau deposedarea este violent, cu conditia ca durata posesiei sã fi fost de minimum un an."
+      "c) pot fi introduse de cätre cel care exercita o posesie viciatã dacã tulburarea sau deposedarea este violenta, cu conditia ca durata posesiei sã fi fost de minimum un an."
     ],
     "correctIndexes": [
       1
@@ -475,7 +475,7 @@ const questions = [
   {
     "question": "Este necesar acordul tuturor coproprietarilor:",
     "answers": [
-      "a) pentru incheierea unui act de folosint cu titlu gratuit, cu privire la bunul comun;",
+      "a) pentru incheierea unui act de folosinta cu titlu gratuit, cu privire la bunul comun;",
       "b) pentru incheierea unui contract de locatiune a bunului comun mobil pe o durat de 2 ani;",
       "c) pentru incheierea unui act de conservare cu privire la bunul comun."
     ],
@@ -488,7 +488,7 @@ const questions = [
     "question": "Proprietarul fondului aservit:",
     "answers": [
       "a) poate renunta unilateral la servitute;",
-      "b) poate strămuta servitutea de trecere fara acordul proprietarului fondului dominant doar dacă exist un interes serios si legitim, chiar dacã exercitarea servitutii de către proprietarul fondului dominant nu va mai fi la fel de comodã;",
+      "b) poate strămuta servitutea de trecere fara acordul proprietarului fondului dominant doar dacă exista un interes serios si legitim, chiar dacã exercitarea servitutii de către proprietarul fondului dominant nu va mai fi la fel de comodã;",
       "c) poate renunta unilateral la dreptul de proprietate asupra fondului aservit in intregime."
     ],
     "correctIndexes": [
@@ -499,8 +499,8 @@ const questions = [
   {
     "question": "Uzucapiunea mobiliară:",
     "answers": [
-      "a) este un efect al posesiei si opereazã in favoarea unui posesor de bună-credint, dar si in favoarea unuia de rea-credintă;",
-      "b) presupune un termen egal ca durat cu cel al uzucapiunii imobiliare extratabulare;",
+      "a) este un efect al posesiei si opereazã in favoarea unui posesor de bună-credinta, dar si in favoarea unuia de rea-credintă;",
+      "b) presupune un termen egal ca durata cu cel al uzucapiunii imobiliare extratabulare;",
       "c) ii este recunoscut intotdeauna si unui detentor precar."
     ],
     "correctIndexes": [
@@ -512,9 +512,9 @@ const questions = [
   {
     "question": "Posesia tulburata sau clandestina poate fi invocata de către:",
     "answers": [
-      "a) orice persoană interesat;",
+      "a) orice persoană interesata;",
       "b) orice persoană, chiar neinteresată;",
-      "c) numai de către persoana fata de care posesia este viciat."
+      "c) numai de către persoana fata de care posesia este viciata."
     ],
     "correctIndexes": [
       2
@@ -524,8 +524,8 @@ const questions = [
   {
     "question": "In materia accesiunii imobiliare artificiale:",
     "answers": [
-      "a) autorul lucrrii efectuate asupra imobilului altuia este considerat de bună-credită, dacă era inscris in cartea funciar ca proprietar al imobilului, chiar dacă titlul su de proprietate a fost anulat si indiferent dacã el cunostea sau nu viciul titlului sau;",
-      "b) proprietarul imobilului asupra căruia s-au efectuat lucräri adugate",
+      "a) autorul lucrarii efectuate asupra imobilului altuia este considerat de bună-credintă, dacă era inscris in cartea funciar ca proprietar al imobilului, chiar dacă titlul su de proprietate a fost anulat si indiferent dacã el cunostea sau nu viciul titlului sau;",
+      "b) proprietarul imobilului asupra căruia s-au efectuat lucräri adugate voluptuare are dreptul sa pastreze aceste lucrari si sa devina astfel proprietarul acestora fara inscriere in cartea funciara si fara nici o obligatie catre autorul lor, chiar daca acestea din urma a fost de buna credinta;",
       "c) proprietarul imobilului are obligatia de a cumpara lucrarea autonom cu caracter durabil efectuat asupra imobilului sãu de la autorul de bună-credinã al acesteia, platindu-i celui din urma valoarea de circulatie a lucrärii realizate."
     ],
     "correctIndexes": [
@@ -538,7 +538,7 @@ const questions = [
     "answers": [
       "a) poate fi cedat fara acordul nudului proprietar, chiar daca accasta posibilitate nu a fost prevăzut in conventia prin care s-a constitut uzufructul;",
       "b) nu poate avea ca obiect bunuri consumptibile;",
-      "c) se stinge in cazul pierii fortuite a bunului ce face obiectul swu, chiar si atunci când aceasta este partială."
+      "c) se stinge in cazul pieirii fortuite a bunului ce face obiectul sau, chiar si atunci când aceasta este partială."
     ],
     "correctIndexes": [
       0
@@ -584,7 +584,7 @@ const questions = [
   {
     "question": "Ca efect al admiterii actiunii in revendicare:",
     "answers": [
-      "a) proprietarul poate fi obligat, la cerere, la restituirea cheltielilor necesare pe care posesoul neproprietar lea efectuat;",
+      "a) proprietarul poate fi obligat, la cerere, la restituirea cheltielilor necesare pe care posesorul neproprietar le-a efectuat;",
       "b) la cererea posesorului, cheltuielile utile se vor restitui in limita sporului de valoare, dacă prin lege nu se prevede altfel;",
       "c) hotărârea judecätoreasca definitiva corespunzatoare va putea fi opusa exclusiv pârâtului, in contra căruia a fost pronuntat."
     ],
@@ -597,7 +597,7 @@ const questions = [
   {
     "question": "In materia coproprietatii obisnuite, in absenta unui contract de administrare a proprietatii comune:",
     "answers": [
-      "a) locatiunea incheiat pe o durata de 4 ani necesita acordul tuturor coproprietarilor;",
+      "a) locatiunea incheiata pe o durata de 4 ani necesita acordul tuturor coproprietarilor;",
       "b) pentru incheierea unui contract de comodat, cu termen de 2 ani, este suficient acordul coproprietarilor care detin majoritatea cotelor-parti;",
       "c) actele prin care urmäreste exclusiv infrumusetarea bunului se incheie cu acordul majoritatii coproprietarilor si a cotelor parti, sub sanctiunea nulitatii."
     ],
@@ -611,7 +611,7 @@ const questions = [
     "answers": [
       "a) dezmembrmintele, consimtite de către superficiar, pentru care au fost realizate formalitatile de publicitate imobiliara, se sting, dacă nudul proprietar este cel care a dobândit superficial;",
       "b) demembrămintele, pentru care au fost realizate formalitatile de publicitate imobiliara, consimtite de către superficiar, se mentin pe durata pentru care au fost constituite, dar nu mai târziu de termenul initial al superficiei;",
-      "c) orice dezmembrăminte consimtite de superficiar se sting pentru că nu mai exist suportul lor necesar- dreptul de superficie."
+      "c) orice dezmembrăminte consimtite de superficiar se sting pentru că nu mai exista suportul lor necesar- dreptul de superficie."
     ],
     "correctIndexes": [
       1
@@ -658,9 +658,9 @@ const questions = [
   {
     "question": "In materia servitutilor conventionale:",
     "answers": [
-      "a) in lipsa de prevedere contrara, proprietarul fondului aservit este tinut sã ia toate măsurile si sã suporte toate cheltuielile pentru",
-      "b) proprietarul fondului aservit nu va putea strămuta exercitarea servitutii intr-un alt loc, far un motiv legitim si serios ori cu agravarea exercitrii dreptului pentru proprietarul fondului dominant;",
-      "c) în cazul n care cheltuielile pentru intretinerea si conservarea"
+      "a) in lipsa de prevedere contrara, proprietarul fondului aservit este tinut sã ia toate măsurile si sã suporte toate cheltuielile pentru conservarea servitutii;",
+      "b) proprietarul fondului aservit nu va putea strămuta exercitarea servitutii intr-un alt loc, far un motiv legitim si serios ori cu agravarea exercitarii dreptului pentru proprietarul fondului dominant;",
+      "c) în cazul in care cheltuielile pentru intretinerea si conservarea servitutii revin proprietarului fondului aservit, acesta se va putea exonera de plata lor, renuntand la dreptul de proprietate asupra partii din fondul aservit necesara exercitarii servitutii in favoarea proprietarului fondului dominant;"
     ],
     "correctIndexes": [
       1,
@@ -672,8 +672,8 @@ const questions = [
     "question": "Uzufructul:",
     "answers": [
       "a) se poate constitui si asupra unei cote parti din dreptul de proprietate;",
-      "b) constituit până la data la care o persoanã va ajunge la o anumit vârsta, se stinge prin moartea acelei persoane inainte de implinirea vârstei stabilite;",
-      "c) constituit in favoarea unei persoane juridice, se prezuma că este constituit pe o durat de 30 de ani dacã in conventia din care a luat nastere nu s-a prevazut durata uzufructului."
+      "b) constituit până la data la care o persoanã va ajunge la o anumita vârsta, se stinge prin moartea acelei persoane inainte de implinirea vârstei stabilite;",
+      "c) constituit in favoarea unei persoane juridice, se prezuma că este constituit pe o durata de 30 de ani dacã in conventia din care a luat nastere nu s-a prevazut durata uzufructului."
     ],
     "correctIndexes": [
       0,
@@ -685,7 +685,7 @@ const questions = [
     "question": "Coproprietatea poate inceta prin:",
     "answers": [
       "a) declaratia unuia dintre coproprietari dat prin inscris autentic prin care renunta la dreptul sau.",
-      "b) atunci când toti coproprietarii instrineazã cotele-parti care le apartin unei terte persoane;",
+      "b) atunci când toti coproprietarii instraineazã cotele-parti care le apartin unei terte persoane;",
       "c) pe calea partajulu."
     ],
     "correctIndexes": [
@@ -697,9 +697,9 @@ const questions = [
   {
     "question": "In cazul in care bunurile proprietate comună pe cote-parti fortata sunt bunuri accesorii:",
     "answers": [
-      "a) pot fi instrinate separat de bunurile principale fatã de care au caracter accesoriu;",
-      "b) nu pot fi instrinate separat de bunurile principale fat de care au caracter accesoriu;",
-      "c) pot fi instrinate numai cu acordul tuturor coproprietarilor separat de bunurile principale."
+      "a) pot fi instrainate separat de bunurile principale fatã de care au caracter accesoriu;",
+      "b) nu pot fi instrainate separat de bunurile principale fata de care au caracter accesoriu;",
+      "c) pot fi instrainate numai cu acordul tuturor coproprietarilor separat de bunurile principale."
     ],
     "correctIndexes": [
       1
@@ -710,7 +710,7 @@ const questions = [
     "question": "Zidul, santul, precum si orice alta despartitura intre două fonduri sunt prezumate a fi in proprietate comunã a vecinilor:",
     "answers": [
       "a) dacă nu rezulta contrariul din titlul de proprietate, dintr-un semn de necomunitate ori dacă proprietatea comunã nu a devenit proprietate exclusiv prin uzucapiune, in conditiile legii;",
-      "b) numai atunci când rezult contrariul din titlul de proprietate;",
+      "b) numai atunci când rezulta contrariul din titlul de proprietate;",
       "c) numai dacă proprietatea comună nu a devenit proprietate exclusiv prin uzucapiune, in conditile legii."
     ],
     "correctIndexes": [
@@ -722,7 +722,7 @@ const questions = [
     "question": "Exista proprietate periodică:",
     "answers": [
       "a) atunci când mai multe persoane exercita succesiv si repetitiv atributul folosintei specific dreptului de proprietate, find incident doar asupra unui bun mobil;",
-      "b) atunci când mai multe persone exercita succesiv si repetitiv atributul folosintei specific dreptului de proprietate. flind incident doar asupra unui bun mobil;",
+      "b) atunci când mai multe persone exercita succesiv si repetitiv atributul folosintei specific dreptului de proprietate, fiind incident doar asupra unui bun mobil;",
       "c) atunci când mai multe persoane exercita succesiv si repetitiv atributul folosintei specific dreptului de proprietate asupra unui bun mobil sau imobil, în intervale de timp determinate, egle sau inegale."
     ],
     "correctIndexes": [
@@ -733,9 +733,9 @@ const questions = [
   {
     "question": "Vecinul care nu a contribuit la realizarea despärtiturii comune poate dobândi un drept de coproprietate asupra despartiturii:",
     "answers": [
-      "a) plätind jumätate din valoarea actualizat a materialului si manoperei folosite si dupã caz, jumätate din valoarea terenului pe care despartitura a fost construita, cu respectarea dispozitiilor de carte funciară;",
-      "b) platind jumătate din valoarea actualizat a materialului si manoperei folosite si dupã caz, jumätate din valoarea terenului pe care despartitura a fost construita, farã a fi necesarã respectarea dispozitiilor in materie de carte funciara;",
-      "c) numai atunci când doreste inälfarea si consolidarea acestuia."
+      "a) plätind jumätate din valoarea actualizata a materialului si manoperei folosite si dupã caz, jumätate din valoarea terenului pe care despartitura a fost construita, cu respectarea dispozitiilor de carte funciară;",
+      "b) platind jumătate din valoarea actualizata a materialului si manoperei folosite si dupã caz, jumätate din valoarea terenului pe care despartitura a fost construita, farã a fi necesarã respectarea dispozitiilor in materie de carte funciara;",
+      "c) numai atunci când doreste inältarea si consolidarea acestuia."
     ],
     "correctIndexes": [
       0
@@ -821,7 +821,7 @@ const questions = [
     "answers": [
       "a) hotarârea judecatoreasca pronuntata in folosul coproprietatii",
       "b) hotărârea judectoreasca potrivnica coproprietarului reclamant",
-      "c) intervine prescriptia dreptului material al actiunii, dacă nu a fost sesizat instanta de judecat in termen de 3 ani de la data la care proprietarul a cunoscut că altcineva exercita posesia asupra bunului sau."
+      "c) intervine prescriptia dreptului material al actiunii, dacă nu a fost sesizat instanta de judecata in termen de 3 ani de la data la care proprietarul a cunoscut că altcineva exercita posesia asupra bunului sau."
     ],
     "correctIndexes": [
       0
@@ -843,9 +843,9 @@ const questions = [
   {
     "question": "Urmare a admiterii actiunii in revendicare, posesorul:",
     "answers": [
-      "a) de bună credita pastreaza fructele până la data introducerii actiunii in revendicare;",
-      "b) de bună credita pastreaza fructele culese până când hotărârea",
-      "c) de bună credit restitue proprietarului-reclamant toate fructele culese sau contravaloarea acestora."
+      "a) de bună credinta pastreaza fructele până la data introducerii actiunii in revendicare;",
+      "b) de bună credinta pastreaza fructele culese până când hotărârea judecatoreasca ramane definitiva si irevocabila;",
+      "c) de bună credinta restitue proprietarului-reclamant toate fructele culese sau contravaloarea acestora."
     ],
     "correctIndexes": [
       0
@@ -868,7 +868,7 @@ const questions = [
     "question": "Regula art. 935-937 Cod civil, conform cu care posesiunea de buna-credinta asupra bunurilor mobile corporale valoreaza titlu de proprietate:",
     "answers": [
       "a) nu cunoaste exceptii;",
-      "b) se aplicã si titlurilor la purtator, a cror valoare este incorporata in titlu;",
+      "b) se aplicã si titlurilor la purtator, a caror valoare este incorporata in titlu;",
       "c) nu se aplicã bunurilor mobile corporale care sunt accesorii ale unui imobil."
     ],
     "correctIndexes": [
@@ -880,9 +880,9 @@ const questions = [
   {
     "question": "In cazul aplicarii regulii art. 935-937 Cod civil, conform căreia posesia de bună-credita asupra bunurilor mobile corporale valoreaza titlu de proprietate, posesia trebuie sã fie:",
     "answers": [
-      "a) numai continua si netulburat;",
+      "a) numai continua si netulburata;",
       "b) numai continuă si publică;",
-      "c) continuă, netulburat si publicã."
+      "c) continuă, netulburata si publicã."
     ],
     "correctIndexes": [
       2
@@ -890,11 +890,11 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Conform reglementrilor art. 937 alin. 2 Cod civil, bunul pierdut sau furat poate fi revendicat de la posesorul de bună-credinta dacă actiunea este intentata, sub sanctiunea decaderii, in termen de 3 ani de la data la care proprietarul a pierdut stapânirea materialã a bunului si este necesar са:",
+    "question": "Conform reglementarilor art. 937 alin. 2 Cod civil, bunul pierdut sau furat poate fi revendicat de la posesorul de bună-credinta dacă actiunea este intentata, sub sanctiunea decaderii, in termen de 3 ani de la data la care proprietarul a pierdut stapânirea materialã a bunului si este necesar са:",
     "answers": [
       "a) reclamantul sã dovedeascã că a fost detentor precar al lucrului;",
-      "b) reclamantul sã dovedeas că lucrul a iesit din patrimoniul su cu voia sa;",
-      "c) reclamantul s dovedeas că bunul a iesit din patrimoniul sau fară"
+      "b) reclamantul sã dovedeasca că lucrul a iesit din patrimoniul sau cu voia sa;",
+      "c) reclamantul sa dovedească ca bunul a iesit din patrimoniul sau fară voia sa;"
     ],
     "correctIndexes": [
       2
@@ -905,8 +905,8 @@ const questions = [
     "question": "Este cunoscut cã oricine se aflã la un moment dat in posesia unui bun mobil este prezumat cã are un titlu de dobândire a dreptului de proprietate asupra bunului, insa, dacă este vorba despre un bun furat sau pierdut care a fost cumparat dintr-un loc ori de la o persoană care vinde in mod obisnuit bunuri de acelasi fel ori dacă a fost adjudecat la o licitatie publică:",
     "answers": [
       "a) posesorul de bună-credinta poate retine bunul până la indemnizarea sa integrala pentru pretul plätit vânzatorului;",
-      "b) posesorul de bună-credint nu poate retine bunul in nicio situatie;",
-      "c) posesorul, fie de bună-credinta, fie de rea-credita, poate refine bunul până la indemnizarea sa integrala pentru preful plätit vânzătorului."
+      "b) posesorul de bună-credinta nu poate retine bunul in nicio situatie;",
+      "c) posesorul, fie de bună-credinta, fie de rea-credinta, poate retine bunul până la indemnizarea sa integrala pentru pretul plätit vânzătorului."
     ],
     "correctIndexes": [
       0
@@ -916,9 +916,9 @@ const questions = [
   {
     "question": "Poate fi formulatã de o persoana fizica actiunea in revendicare care are ca obiect bunuri:",
     "answers": [
-      "a) proprietate privat;",
+      "a) proprietate privata;",
       "b) proprietate publica din domeniul public;",
-      "c) proprietate privat a statului sau a unitatilor administrativ-teritoriale."
+      "c) proprietate privata a statului sau a unitatilor administrativ-teritoriale."
     ],
     "correctIndexes": [
       0,
@@ -1006,7 +1006,7 @@ const questions = [
     "question": "Intervertirea precaritatii:",
     "answers": [
       "a) nu se poate face în nicio situatie;",
-      "b) se poate face in orice situatic in care detentorul precar doreste, prin vointa sa, sã transforme detentia precara in posesie;",
+      "b) se poate face in orice situatie in care detentorul precar doreste, prin vointa sa, sã transforme detentia precara in posesie;",
       "c) in posesie nu se poate face decât in cazurile prevazute de lege."
     ],
     "correctIndexes": [
@@ -1017,9 +1017,9 @@ const questions = [
   {
     "question": "Intervertirea detentiei precare in posesie:",
     "answers": [
-      "a) se poate face dacă detentorul precar incheie cu bună-credint un act translativ de proprietate cu titlu particular cu alt persoană decât cu proprietarul bunului;",
+      "a) se poate face dacă detentorul precar incheie cu bună-credinta un act translativ de proprietate cu titlu particular cu alta persoană decât cu proprietarul bunului;",
       "b) se poate face dacã detentorul precar instraineazã bunul, printr-un act translativ de proprietate cu titlu particular, cu conditia ca dobânditorul sã fie de bună-credinta;",
-      "c) se poate face dacă detentorul precar instrineaza bunul, printr-un act translativ de proprietate cu titlu particular, indiferent de buna sau reaua-credită a dobânditorului."
+      "c) se poate face dacă detentorul precar instrineaza bunul, printr-un act translativ de proprietate cu titlu particular, indiferent de buna sau reaua-credintă a dobânditorului."
     ],
     "correctIndexes": [
       0,
@@ -1031,7 +1031,7 @@ const questions = [
     "question": "Posesia incetează:",
     "answers": [
       "a) prin transformarea sa in detentie precară;",
-      "b) prin instrinarea bunului;",
+      "b) prin instrainarea bunului;",
       "c) prin deposedare, dacã posesorul ramâne lipsit de posesia bunului mai mult de 5 ani."
     ],
     "correctIndexes": [
@@ -1043,7 +1043,7 @@ const questions = [
   {
     "question": "Posesia inceteaza prin:",
     "answers": [
-      "a) abandonarea bunului mobil sau printr-o declaratie dată sub semnatur privata prin care proprietarul renunta la dreptul de proprietate.",
+      "a) abandonarea bunului mobil sau printr-o declaratie dată sub semnatura privata prin care proprietarul renunta la dreptul de proprietate.",
       "b) pieirea bunului",
       "c) prin trecerea bunului in proprietate publicã."
     ],
@@ -1056,9 +1056,9 @@ const questions = [
   {
     "question": "Posesia este discontinua:",
     "answers": [
-      "a) dacă se exercita astfel incât nu poate fi cunoscut;",
-      "b) atât timp cât posesorul o exercit cu intermitente anormale in raport cu natura bunului;",
-      "c) dacã este dobândita sau consumat prin acte de violenta, fizica sau morala, care nu au fost provocate de o alt persoanã."
+      "a) dacă se exercita astfel incât nu poate fi cunoscuta;",
+      "b) atât timp cât posesorul o exercita cu intermitente anormale in raport cu natura bunului;",
+      "c) dacã este dobândita sau consumata prin acte de violenta, fizica sau morala, care nu au fost provocate de o alt persoanã."
     ],
     "correctIndexes": [
       1
@@ -1068,7 +1068,7 @@ const questions = [
   {
     "question": "Posesia este afectata de violenta:",
     "answers": [
-      "a) dacă este dobândit sau consumata prin acte de violent, fizicã sau morala, care nu au fost provocate de o altã persoanã;",
+      "a) dacă este dobândita sau consumata prin acte de violenta, fizicã sau morala, care nu au fost provocate de o altã persoanã;",
       "b) atât timp cât posesorul o exercita cu intermitente anormale in raport cu natura bunurilor;",
       "c) dacă se exercita astfel incât nu poate fi cunoscuta."
     ],
@@ -1080,7 +1080,7 @@ const questions = [
   {
     "question": "Posesia este clandestină:",
     "answers": [
-      "a) dacă este doândita sau consumata prin acte de violenta, fizica sau moralã, care nu au fost provocate de o alta persoana;",
+      "a) dacă este dobândita sau consumata prin acte de violenta, fizica sau moralã, care nu au fost provocate de o alta persoana;",
       "b) atât timp cât posesorul o exercita cu intermitente anormale in raport cu natura bunurilor;",
       "c) dacã se exercita astfel incât nu poate fi cunoscuta."
     ],
@@ -1092,9 +1092,9 @@ const questions = [
   {
     "question": "Cunoscut find că nu produce efecte juridice decât posesia utila:",
     "answers": [
-      "a) posesia viciat devine utila indata ce aceasta se intemeiaza pe extrasul de carte funciara;",
-      "b) posesia viciat devine utila indata ce posesorul a devenit de bunã-credintă;",
-      "c) posesia viciat devine utila indata ce viciul inceteaza."
+      "a) posesia viciata devine utila indata ce aceasta se intemeiaza pe extrasul de carte funciara;",
+      "b) posesia viciata devine utila indata ce posesorul a devenit de bunã-credintă;",
+      "c) posesia viciata devine utila indata ce viciul inceteaza."
     ],
     "correctIndexes": [
       2
@@ -1130,7 +1130,7 @@ const questions = [
     "answers": [
       "a) posesorul nu poate sã ceara instantei luarea masurilor necesare pentru evitarea pericolului sau, dacã este cazul, incetarea lucrarilor;",
       "b) posesorul poate sã ceara instantei luarea măsurilor necesare pentru evitarea pericolului sau, dacă este cazul, incetarea lucrarilor;",
-      "c) posesorul poate sã ceara instantei numai luarea măsurilor necesare"
+      "c) posesorul poate sã ceara instantei numai luarea măsurilor necesare pentru evitarea pericolului, dar nu si incetarea lucrarilor;"
     ],
     "correctIndexes": [
       1
@@ -1202,7 +1202,7 @@ const questions = [
     "answers": [
       "a) denuntarea contractului de locatiune având ca obiect bunul comun se poate face ori de câte ori exista acordul majoritatii coproprietarilor;",
       "b) nu este necesar acordul tuturor coproprietarilor pentru incheierea unui contract de locatiune cu termen de 3 ani, având ca obiect bunul comun;",
-      "c) este obligatoriu acordul tuturor coproprietarilor pentru a se incheia un contract de donatie având ca obiect bunul comun, chiar dacă donatia este afectat de o conditie suspensiva."
+      "c) este obligatoriu acordul tuturor coproprietarilor pentru a se incheia un contract de donatie având ca obiect bunul comun, chiar dacă donatia este afectata de o conditie suspensiva."
     ],
     "correctIndexes": [
       1,
@@ -1214,7 +1214,7 @@ const questions = [
     "question": "Nu constitue posesie stăpânirea unui bun de către:",
     "answers": [
       "a) locatar, cu toate că acesta poate exercita, in conditiile legii, actiunile posesorii;",
-      "b) titularul dreptului de uzufruct fat de nuda proprietate;",
+      "b) titularul dreptului de uzufruct fata de nuda proprietate;",
       "c) coproprietar, in proportie cu propria sa cotă-parte."
     ],
     "correctIndexes": [
@@ -1228,7 +1228,7 @@ const questions = [
     "answers": [
       "a) dacă bunul este dat în folosinta cu titlu gratuit;",
       "b) dacă bunul a fost trecut in domeniul privat, cu respectarea conditiilor preväzute de lege;",
-      "c) dacã asupra bunului se constitue un drept de administrare, prin hotărâre a Guvernului."
+      "c) dacã asupra bunului se constituie un drept de administrare, prin hotărâre a Guvernului."
     ],
     "correctIndexes": [
       1
