@@ -88,7 +88,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Cumpratorul este obligat la:",
+    "question": "Cumparatorul este obligat la:",
     "answers": [
       "a) plata pretului;",
       "b) preluarea bunului;",
@@ -102,11 +102,11 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "In cazul in care vânzatorul a cunoscut cauza evictiuni la data incheierii contractului de vânzare si nu a comunicat-o cumparatorului, iar acesta din urma, dupa efectuarea unor lucrari voluptuare, a fost evins de bunul a cărui valoare crescuse intre timp:",
+    "question": "In cazul in care vânzatorul a cunoscut cauza evictiunii la data incheierii contractului de vânzare si nu a comunicat-o cumparatorului, iar acesta din urma, dupa efectuarea unor lucrari voluptuare, a fost evins de bunul a cărui valoare crescuse intre timp:",
     "answers": [
-      "a) vânzatorul este obligat sa plateasca cumpratorului cheltuielile de judecata efectuate in procesul cu cel ce l-a evins, precum si în procesul de chemare a sa (vânzatorului) in garantie;",
+      "a) vânzatorul este obligat sa plateasca cumparatorului cheltuielile de judecata efectuate in procesul cu cel ce l-a evins, precum si în procesul de chemare a sa (vânzatorului) in garantie;",
       "b) vânzătorul nu este dator sa ramburseze cumparatorului cheltuielile facute pentru efectuarea sau ridicarea lucrarilor voluptuare;",
-      "c) vânzătorul este dator s plateas cumpratorului, pe lângã preful vânzãrii, si sporul de valoare acumulat de bun până la data evictiunii."
+      "c) vânzătorul este dator sa plateasca cumparatorului, pe lângã pretul vânzãrii, si sporul de valoare acumulat de bun până la data evictiunii."
     ],
     "correctIndexes": [
       0,
@@ -230,7 +230,7 @@ const questions = [
     "answers": [
       "a) dacă obiectul vânzarii il constitue un bun viitor sau un bun dintr-un gen limitat care nu exista la data incheierii contractului, cumparatorul ramâne obligat la plata pretului atunci când si-a asumat riscul nerealizarii bunului sau genului limitat, după caz;",
       "b) contractul este lovit de nulitate absoluta atunci când pretul este stabilit fãra intentia de a fi platit;",
-      "c) când pretul se determină in functie de greutatea lucrului vândut, la stabilirea cuantumului su nu se tine seama de greutatea ambalajului."
+      "c) când pretul se determină in functie de greutatea lucrului vândut, la stabilirea cuantumului sa nu se tine seama de greutatea ambalajului."
     ],
     "correctIndexes": [
       0,
@@ -253,8 +253,8 @@ const questions = [
   {
     "question": "Oferta de donatie:",
     "answers": [
-      "a) poate fi acceptat de mostenitorii destinatarului;",
-      "b) poate fi revocat cât timp ofertantul nu a luat cunostinta de acceptarea destinatarului;",
+      "a) poate fi acceptata de mostenitorii destinatarului;",
+      "b) poate fi revocata cât timp ofertantul nu a luat cunostinta de acceptarea destinatarului;",
       "c) devine caducã in caz de incapacitate a destinatarului"
     ],
     "correctIndexes": [
@@ -429,7 +429,7 @@ const questions = [
     "answers": [
       "a) nu raspunde, in niciun caz, pentru vicile ascunse ale bunului donat;",
       "b) in toate cazurile, răspunde pentru evictiune ca si vânzătorul;",
-      "c) poate cere fie executarea sarcinii, fie revocarea donatiei, atunci când donatarul nu indeplineste sarcina la care s-a obligat."
+      "c) poate cere fie executarea sarcinii, fie revocarea donatiei, atunci când donatorul nu indeplineste sarcina la care s-a obligat."
     ],
     "correctIndexes": [
       2

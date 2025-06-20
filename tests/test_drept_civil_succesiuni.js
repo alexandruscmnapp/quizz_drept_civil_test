@@ -2,7 +2,7 @@ const questions = [
   {
     "question": "Poate fi declarata nedemna persoana:",
     "answers": [
-      "a) condamnat definitiv pentru denuntarea calomnioasa a celui pe care il mosteneste;",
+      "a) condamnata definitiv pentru denuntarea calomnioasa a celui pe care il mosteneste;",
       "b) care a alterat, din neglienta, testamentul defunctului;",
       "c) care a primit testamentul olograf, spre pastrare, de la defunct si care nu il preda, cu rea-credinta, celor interesati, dupa deschiderea mostenirii."
     ],
@@ -547,7 +547,7 @@ const questions = [
     "question": "Potrivit dispozitiilor Codului civil referitoare la devolutiunea legala a mostenirii:",
     "answers": [
       "a) in cazul clasei a II-a de mostenitori, nu opereaza, in niciun caz, reprezentarea succesorala;",
-      "b) in cazul clasei a III-a de mostenitori, mostenirea se imparte in mod egal, când vin la mostenire in nume propriu, ori pe tulpină, când vin",
+      "b) in cazul clasei a III-a de mostenitori, mostenirea se imparte in mod egal, când vin la mostenire in nume propriu, ori pe tulpină, când vin la mostenire prin reprezentare;",
       "c) la mostenire prin reprezentare; in cazul clasei a II-a de mostenitori, intre colateralii privilegiati, impartirea mostenirii se va realiza pe linii, atunci când acestia sunt rude cu defunctul pe linii colaterale diferite."
     ],
     "correctIndexes": [
@@ -556,7 +556,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "La data de 15.03.2014, P. decedează, neavand nici descendenti, nici sotie supravietuitoare. Mostenirea dupã acesta este acceptat de B., care este var primar, respectiv fiul unchiului C. (fratele tatalui lui P.) predecedat si de D., care este mătusa lui P. (sora tatalui lui P.).",
+    "question": "La data de 15.03.2014, P. decedează, neavand nici descendenti, nici sotie supravietuitoare. Mostenirea dupã acesta este acceptata de B., care este var primar, respectiv fiul unchiului C. (fratele tatalui lui P.) predecedat si de D., care este mătusa lui P. (sora tatalui lui P.). Conform devolutiunii legale a mostenirii, aceasta urmeaza a fi culeasa de:",
     "answers": [
       "a) B. in intregime;",
       "b) D. in intregime;",

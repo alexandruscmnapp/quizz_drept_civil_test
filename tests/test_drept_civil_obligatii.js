@@ -12,7 +12,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Constitue cerinte necesare pentru invocarea exceptiei de neexecutare a contractului:",
+    "question": "Constituie cerinte necesare pentru invocarea exceptiei de neexecutare a contractului:",
     "answers": [
       "a) obligatille reciproce ale partilor sã-si aiba temeiul in acelasi contract;",
       "b) din partea celuilalt contractant sã existe o neexecutare, chiar si partiala",
@@ -25,11 +25,11 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Rezolutinea constitue o sanctiune pentru neexecutarea culpabila a contractului sinalagmatic, care are drept consecina:",
+    "question": "Rezolutinea constituie o sanctiune pentru neexecutarea culpabila a contractului sinalagmatic, care are drept consecinta:",
     "answers": [
       "a) desfiintarea pentru vitor a contractului;",
-      "b) desfintarea retroactiv a acestuia si repunerea partilor in situatia anterioar incheierii contractului;",
-      "c) impiedica creditorul s obtina daune interese pentru prejudiciile produse in urma încalcãrii obligatiilor contractuale."
+      "b) desfintarea retroactiva a acestuia si repunerea partilor in situatia anterioar incheierii contractului;",
+      "c) impiedica creditorul sa obtina daune interese pentru prejudiciile produse in urma încalcãrii obligatiilor contractuale."
     ],
     "correctIndexes": [
       1
@@ -49,10 +49,10 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Condifille necesare pentru a opera rezolutiunea judiciara sunt:",
+    "question": "Conditille necesare pentru a opera rezolutiunea judiciara sunt:",
     "answers": [
-      "a) trebuie sã existe o neexecutare total sau partialã, dar important a obligatiei de către una dintre parti;",
-      "b) neexecutarea trebuie s fie imputabila debitorului;",
+      "a) trebuie sã existe o neexecutare total sau partialã, dar importanta a obligatiei de către una dintre parti;",
+      "b) neexecutarea trebuie sa fie imputabila debitorului;",
       "c) debitorul obligatiei neexecutate trebuie sã fi fost pus in intârziere in conditiile legi."
     ],
     "correctIndexes": [
@@ -75,10 +75,10 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Diferenta dintre rezolutiune si reziliere const in aceea ca:",
+    "question": "Diferenta dintre rezolutiune si reziliere consta in aceea ca:",
     "answers": [
       "a) rezolutinea desfinteaza retroactiv contractul, iar rezilierea face să inceteze contractul numai pentru viitor;",
-      "b) rezolutiunea desfiinteaza contractul numai pentru vitor, iar rezilierea desfiinteaza retroactiv contractul;",
+      "b) rezolutiunea desfiinteaza contractul numai pentru viitor, iar rezilierea desfiinteaza retroactiv contractul;",
       "c) rezilierea opereaza in cazul contractelor cu executare succesiva, iar rezolutiunea in cazul contractelor cu executare uno ictu."
     ],
     "correctIndexes": [
@@ -113,7 +113,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "In cazul savârsirii unei fapte ilicite de cätre un minor in vârst de 16 ani care avea calitate de prepus, iar fapta avea legätura cu atributiile increditate lui in aceast calitate:",
+    "question": "In cazul savârsirii unei fapte ilicite de cätre un minor in vârsta de 16 ani care avea calitate de prepus, iar fapta avea legätura cu atributiile increditate lui in aceasta calitate:",
     "answers": [
       "a) minorul va răspunde de prejudiciul cauzat, dacă nu dovedeste că a fost lipsit de discernământ la data savârsirii faptei;",
       "b) raspunderea comitentului va fi angajata numai in ipoteza in care minorul avea discernământ la momentul savârsirii faptei;",
@@ -165,9 +165,9 @@ const questions = [
   {
     "question": "In materia simulatiei:",
     "answers": [
-      "a) actul secret poate fi invocat de succesorii cu titlu particular ai partilor fat de tertii de buna-credinta care au dobândit drepturi de la achizitorul aparent;",
+      "a) actul secret poate fi invocat de succesorii cu titlu particular ai partilor fata de tertii de buna-credinta care au dobândit drepturi de la achizitorul aparent;",
       "b) actul secret nu produce efecte intre parti, dacă el nu indeplineste conditiile de fond cerute de lege pentru incheierea sa valabila;",
-      "c) creditorii instrintorului aparent sunt preferati creditorilor dobânditorului aparent, dacă creanta primilor este anterioar actului secret."
+      "c) creditorii instrainatorului aparent sunt preferati creditorilor dobânditorului aparent, dacă creanta primilor este anterioara actului secret."
     ],
     "correctIndexes": [
       1,
@@ -216,9 +216,9 @@ const questions = [
   {
     "question": "Pentru a putea obtine repararea prejudiciului este necesar:",
     "answers": [
-      "a) ca acesta sã aiba caracter cert;",
+      "a) ca aceasta sã aiba caracter cert;",
       "b) sã existe posibilitati patrimoniale de acoperire a prejudiciului de către autorul acestuia;",
-      "c) sã exista o legatura de cauzalitate intre fapt ilicita savârsit si prejudicial produs."
+      "c) sã existe o legatura de cauzalitate intre fapta ilicita savârsita si prejudiciul produs."
     ],
     "correctIndexes": [
       0,
@@ -301,7 +301,7 @@ const questions = [
   {
     "question": "Conform prevederilor art. 1372 alin. 1 Cod civil, cel care în temeiul legii, al unui contract ori al unei hotarâri judectoresti este obligat sã supravegheze un minor sau o persoanã pusa sub interdictie raspunde de prejudiciul cauzat altuia de catre aceste din urmã persoane si parintii răspund pentru faptele copiilor lor minori:",
     "answers": [
-      "a) daca filiatia este din căstorie;",
+      "a) daca filiatia este din căsatorie;",
       "b) dacă filiatia este din afara căstoriei;",
       "c) chiar dacã nu exista o legatura de cauzalitate intre fapta ilicita si prejudiciu."
     ],
@@ -312,11 +312,11 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Conform prevederilor art. 1372 al. 2 din Codul civil, cel care n temeiul legii, al unui contract ori al unei hotarâri judectoresti este obligat sã supravegheze un minor sau opersoana pus sub interdictie, raspunde de prejudiciul cauzat altuia de către aceste din urma persoane si:",
+    "question": "Conform prevederilor art. 1372 al. 2 din Codul civil, cel care in temeiul legii, al unui contract ori al unei hotarâri judecatoresti este obligat sã supravegheze un minor sau o persoana pus sub interdictie, raspunde de prejudiciul cauzat altuia de către aceste din urma persoane si:",
     "answers": [
       "a) răspunderea subzista chiar in cazul când faptuitorul, find lipsit de discernământ, nu raspunde pentru fapta proprie;",
       "b) raspunderea nu subzista dacă faptuitorul, find lipsit de discernământ, nu raspunde pentru fapta proprie;",
-      "c) raspunderea nu subzista daca persoana obligata sa supraveghezen minorul sau persona pusa sub interdictie nu a contribuit direct la producerea prejudiciului."
+      "c) raspunderea nu subzista daca persoana obligata sa supravegheze minorul sau persona pusa sub interdictie nu a contribuit direct la producerea prejudiciului."
     ],
     "correctIndexes": [
       0
@@ -399,9 +399,9 @@ const questions = [
   {
     "question": "In cadrul raspunderii civile delictuale pentru fapta proprie:",
     "answers": [
-      "a) cel care a cauzat un prejudiciu este raspunzator intotdeauna, chiar dacă in momentul in care a savârsit fapta pagubitoare era intr-o stare, chiar vremelnic, de tuburare a mintii care l-a pus in neputinta de a-si da seama de urmãrile faptei sale;",
-      "b) cel care a cauzat un prejudiciu este raspunzator chiar dac in momentul in care a svârsit fapta pagubitoare era intr-o stare, chiar vremelnic de tulburare a mintii care l- a pus in neputinta de a-si da seama de urmärile faptei sale, dar nu raspunde dacă starea vremelnicã",
-      "c) cel care a cauzat un prejudiciu nu este raspunzator daca in momentul in care a savârsit fapta pagubitoare era intr-o stare, chiar vremelnica, de tulburare a mintii care l-a pus in neputinta de a-si da seama de urmarile faptei sale, ins cel care a cauzat prejudiciul este raspunzator dacã starea vremelnic de tulburare a mintii a fost provocat de el insusi, prin betia produsã de alcool, de stupefiante sau de alte substante."
+      "a) cel care a cauzat un prejudiciu este raspunzator intotdeauna, chiar dacă in momentul in care a savârsit fapta pagubitoare era intr-o stare, chiar vremelnica, de tuburare a mintii care l-a pus in neputinta de a-si da seama de urmãrile faptei sale;",
+      "b) cel care a cauzat un prejudiciu este raspunzator chiar daca in momentul in care a savârsit fapta pagubitoare era intr-o stare, chiar vremelnica de tulburare a mintii care l- a pus in neputinta de a-si da seama de urmärile faptei sale, dar nu raspunde dacă starea vremelnicã de tulburare a mintii a fost provocata de el insusi, prin betia produsa de alcool, de stupefiante sau de alte substante;",
+      "c) cel care a cauzat un prejudiciu nu este raspunzator daca in momentul in care a savârsit fapta pagubitoare era intr-o stare, chiar vremelnica, de tulburare a mintii care l-a pus in neputinta de a-si da seama de urmarile faptei sale, insa cel care a cauzat prejudiciul este raspunzator dacã starea vremelnica de tulburare a mintii a fost provocata de el insusi, prin betia produsã de alcool, de stupefiante sau de alte substante."
     ],
     "correctIndexes": [
       2
@@ -411,7 +411,7 @@ const questions = [
   {
     "question": "In cadrul raspunderii civile delictuale pentru fapta proprie:",
     "answers": [
-      "a) minorul care nu a implinit vârsta de 14 ani sau persoana pusă sub interdictie judectoreasca nu raspunde de prejudiciul cauzat, daca nu se dovedeste discernământul su la data savârsiri faptei;",
+      "a) minorul care nu a implinit vârsta de 14 ani sau persoana pusă sub interdictie judecatoreasca nu raspunde de prejudiciul cauzat, daca nu se dovedeste discernământul sau la data savârsiri faptei;",
       "b) minorul care a implinit vârsta de 14 ani răspunde de prejudiciul cauzat, in afara de cazul in care dovedeste că a fost lipsit de discernământ la data savârsirii faptei;",
       "c) minorul care a implinit vârsta de 14 ani nu răspunde de prejudiciul cauzat, nici chiar dacã se dovedeste că a fost lipsit de discernământ la data savârsirii faptei."
     ],
@@ -423,8 +423,8 @@ const questions = [
   {
     "question": "In cadrul răspunderii civile delictuale pentru fapta proprie, atunci când fapta cauzatoare de prejudicii constituie si infractune:",
     "answers": [
-      "a) instanta civila este legata de dispozitile legii penale si de hotrarea definitiva de achitare sau de incetare a procesului penal cu privire la existenta prejudiciului ori a vinovatiei autorului faptei ilicite;",
-      "b) instanta civial nu este legata de dispozitiile legii penale, dar este legat de hotarârea definitiv de achitare sau de incetare a procesului penal cu privire la existenta prejudiciului ori a vinovtiei autorului faptei ilicite;",
+      "a) instanta civila este legata de dispozitile legii penale si de hotararea definitiva de achitare sau de incetare a procesului penal cu privire la existenta prejudiciului ori a vinovatiei autorului faptei ilicite;",
+      "b) instanta civila nu este legata de dispozitiile legii penale, dar este legata de hotarârea definitiva de achitare sau de incetare a procesului penal cu privire la existenta prejudiciului ori a vinovatiei autorului faptei ilicite;",
       "c) instanta civila nu este legata de dispozitiile legii penale si nici de hotărârea definitiva de achitare sau de încetare a procesului penal in ceea ce priveste existenta prejudiciului ori a vinovatiei autorului faptei ilicite."
     ],
     "correctIndexes": [
@@ -470,7 +470,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "1376 Cod civil institue răspunderea pentru prejudiciile cauzate de lucruri si răspunderea se angajeaza in sarcina aceluia care:",
+    "question": "Art. 1376 Cod civil instituie răspunderea pentru prejudiciile cauzate de lucruri si răspunderea se angajeaza in sarcina aceluia care:",
     "answers": [
       "a) exercita controlul si supravegherea asupra lucrului in interesul altei persoane, in baza unei conventii;",
       "b) in temeiul unui contract exercit in mod independent controlul si supravegherea asupra lucrului si se serveste de acesta in interes propriu;",
@@ -483,7 +483,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Art. 1376 Cod civil institue răspunderea pentru prejudicile cauzate de lucruri, iar pentru declansarea răspunderii victima prejudiciului trebuie sã dovedeasca:",
+    "question": "Art. 1376 Cod civil instituie răspunderea pentru prejudicile cauzate de lucruri, iar pentru declansarea răspunderii victima prejudiciului trebuie sã dovedeasca:",
     "answers": [
       "a) existenta prejudiciului;",
       "b) discernământul autorului prejudiciului;",
@@ -500,7 +500,7 @@ const questions = [
     "answers": [
       "a) că prejudiciul este cauzat exclusiv de fapta victimei insasi;",
       "b) că prejudiciul este cauzat de un tert pentru care este este tinut sã raspunda:",
-      "c) că prejudiciul este umarea unui caz de fortã majora."
+      "c) că prejudiciul este urmarea unui caz de fortã majora."
     ],
     "correctIndexes": [
       0,
@@ -587,7 +587,7 @@ const questions = [
     "answers": [
       "a) prejudiciul se repara integral, dacă prin lege nu se prevede altfel;",
       "b) se pot acorda despagubiri si pentru un prejudiciu viitor, dacă producerea lui este neindoielnică;",
-      "c) nu se pot acorda despagubiri pentru un prejudiciu vitor, chiar dacă producerea lui este neîndoielnică."
+      "c) nu se pot acorda despagubiri pentru un prejudiciu viitor, chiar dacă producerea lui este neîndoielnică."
     ],
     "correctIndexes": [
       0,
@@ -596,9 +596,9 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "În cazul repararii prejudiciului in cadrul raspunderi delictuale, despagubirea trebuie sã cuprindă:",
+    "question": "În cazul repararii prejudiciului in cadrul raspunderii delictuale, despagubirea trebuie sã cuprindă:",
     "answers": [
-      "a) pierderea suferit de cel prejudiciat;",
+      "a) pierderea suferita de cel prejudiciat;",
       "b) câstigul pe care, in conditii normale, cel prejudiciat ar fi putut sã il realizeze si de care a fost lipsit;",
       "c) sumele pe care le-a avansat in executarea unui contract aleatoriu de joc si pariu, dacã prejudiciul produs prin fapta delictualã, l-a pus in imposibilitatea de a-si valorifica sansa de câstig."
     ],
@@ -613,7 +613,7 @@ const questions = [
     "answers": [
       "a) dacă fapta ilicita a determinat si pierderea sansei de a obtine sau de a evita o paguba, reparatia trebuie sa fie proportionala cu probabilitatea obtinerii avantajului sau a evitarii pagubei, tinând cont de imprejurãri si de situatia concreta a victimei;",
       "b) dacă fapta ilicita a determinat pierderea sansei de a obtine un avantaj sau de a evita o paguba, reparatia trebuie sa fie proportionalã cu probabilitatea obtinerii avantajului sau a evitarii pagubei, fara a tine cont de imprejurari si de situatia concreta a victimei;",
-      "c) dacă fapta ilicita a determinat pierderea sansei de a obtine un avantaj sau de a evita o paguba, reparatia trebuie sa fie proportionala cu probabilitatea obtinerii avantajului sau a evitarii pagubei, tinând cont de imprejurari, independent de situatia concret a victimei."
+      "c) dacă fapta ilicita a determinat pierderea sansei de a obtine un avantaj sau de a evita o paguba, reparatia trebuie sa fie proportionala cu probabilitatea obtinerii avantajului sau a evitarii pagubei, tinând cont de imprejurari, independent de situatia concreta a victimei."
     ],
     "correctIndexes": [
       0
@@ -623,9 +623,9 @@ const questions = [
   {
     "question": "In cadrul raspunderii civile delictuale, in caz de vătămare a integritatii corporale sau a sănătatii unei persoane, despagubirea trebuie sã cuprindă:",
     "answers": [
-      "a) numai echivalentul câstigului din muncã de care cel pagubit a fost lipsit sau pe care este impiedicat să-l dobândeas, prin efectul pierderii sau reducerii capacitatii sale de muncă.",
-      "b) cheltuielile de ingrijire medical si, dacă este cazul, cheltuielile determinate de sporirea nevoilor de viata ale celui pagubit, precum orice alte prejudicii materiale, chiar dacã nu se poate stabili o legatura certa intre acestea si fapta ilicita;",
-      "c) echivalentul câstigului din muncã de care cel pagubit a fost lipsit sau pe care este impiedicat să-l dobândeasca, prin efectul pierderii sau reducerii capacitatii sale de muncã, cheltuielile de ingrijire medicala si, dacã este cazul, cheltuielile determinate de sporirea nevoilor de viata ale celui pagubit, precum si orice alte prejudici materiale."
+      "a) numai echivalentul câstigului din muncã de care cel pagubit a fost lipsit sau pe care este impiedicat să-l dobândeasca, prin efectul pierderii sau reducerii capacitatii sale de muncă.",
+      "b) cheltuielile de ingrijire medicala si, dacă este cazul, cheltuielile determinate de sporirea nevoilor de viata ale celui pagubit, precum orice alte prejudicii materiale, chiar dacã nu se poate stabili o legatura certa intre acestea si fapta ilicita;",
+      "c) echivalentul câstigului din muncã de care cel pagubit a fost lipsit sau pe care este impiedicat să-l dobândeasca, prin efectul pierderii sau reducerii capacitatii sale de muncã, cheltuielile de ingrijire medicala si, dacã este cazul, cheltuielile determinate de sporirea nevoilor de viata ale celui pagubit, precum si orice alte prejudicii materiale."
     ],
     "correctIndexes": [
       2
@@ -648,8 +648,8 @@ const questions = [
   {
     "question": "Actiunea in rezolutiune:",
     "answers": [
-      "a) va putea fi admisã, chiar dacã debitorul nu a fost pus in intârziere anterior introducerii actinii, dacã debitorul nu execut obligatia intr-un termen rezonabil, calculat de la data când cererea de chemare in judecat i-a fost comunicata;",
-      "b) este prescriptibil si in cazul in care obligatia neexecutata s a născut dintr un contract translativ de proprietate, iar scopul urmärit de creditor este redobândirea dreptului de proprietate asupra bunului transmis;",
+      "a) va putea fi admisã, chiar dacã debitorul nu a fost pus in intârziere anterior introducerii actinii, dacã debitorul nu executa obligatia intr-un termen rezonabil, calculat de la data când cererea de chemare in judecat i-a fost comunicata;",
+      "b) este prescriptibila si in cazul in care obligatia neexecutata s-a născut dintr un contract translativ de proprietate, iar scopul urmärit de creditor este redobândirea dreptului de proprietate asupra bunului transmis;",
       "c) are un caracter subsidiar, in sensul că poate fi promovata numai daca partile sau legea au interzis rezolutiunea unilaterala."
     ],
     "correctIndexes": [
@@ -663,7 +663,7 @@ const questions = [
     "answers": [
       "a) chitanta care consemneaza primirea prestatiei principale nu face sa se prezume si executarea prestatiilor accesorii;",
       "b) dacă partile nu au prevazut expres altfel, debitorul este intotdeauna liber sa execute obligatia, chiar inaintea scadentei;",
-      "c) executarea facut in favoarea unui creditor incapabil sa o primeasca nu libereaza pe debitor decât in măsura n care profit creditorului."
+      "c) executarea facuta in favoarea unui creditor incapabil sa o primeasca nu libereaza pe debitor decât in măsura in care profita creditorului."
     ],
     "correctIndexes": [
       2
@@ -685,9 +685,9 @@ const questions = [
   {
     "question": "In ceea ce priveste raspunderea civila delictuală:",
     "answers": [
-      "a) dacă prejudiciul a fost cauzat prin actinea simultană sau succesiv a mai multor persoane, fara sa se poata stabili că a fost cauzat sau, după caz, ca nu putea fi cauzat prin fapta vreuneia dintre ele, toate aceste persoane vor raspunde solidar fată de victimă;",
-      "b) minorii care nu au implinit vârsta de 14 ani nu răspund, in niciun caz, de prejudiciul cauzat printr-o fapt ilicită;",
-      "c) la stabilirea despăgubirii se are in vedere, daca prin lege nu se prevede altfel, data pronuntari hotărâri judectoresti prin care debitorul este obligat la repararea prejudiciului cauzat creditorului prin fapta ilicita."
+      "a) dacă prejudiciul a fost cauzat prin actiunea simultană sau succesiva a mai multor persoane, fara sa se poata stabili că a fost cauzat sau, după caz, ca nu putea fi cauzat prin fapta vreuneia dintre ele, toate aceste persoane vor raspunde solidar fată de victimă;",
+      "b) minorii care nu au implinit vârsta de 14 ani nu răspund, in niciun caz, de prejudiciul cauzat printr-o fapta ilicită;",
+      "c) la stabilirea despăgubirii se are in vedere, daca prin lege nu se prevede altfel, data pronuntarii hotărâri judectoresti prin care debitorul este obligat la repararea prejudiciului cauzat creditorului prin fapta ilicita."
     ],
     "correctIndexes": [
       0
@@ -699,7 +699,7 @@ const questions = [
     "answers": [
       "a) daca obligatia este solidara intre creditori, debitorul se poate libera, în toate cazurile, plätind oricăruia dintre creditorii solidari;",
       "b) dacã obligatia este solidara intre debitori, exista solidaritate chiar dacã debitorii sunt obligati sub modalitati diferite;",
-      "c) hotărârea judectoresca pronuntata in favoarea unuia dintre codebitorii solidari profita, in toate cazurile, si celorlati codebitori solidari."
+      "c) hotărârea judectoreasca pronuntata in favoarea unuia dintre codebitorii solidari profita, in toate cazurile, si celorlalti codebitori solidari."
     ],
     "correctIndexes": [
       1
@@ -721,7 +721,7 @@ const questions = [
   {
     "question": "In cazul neexecutarii unei obligatii:",
     "answers": [
-      "a) de a nu face, creditorul este indreptätit sã cear instantei incuviintarea de a inlătura, pe cheltuiala debitorului, ceea ce acesta",
+      "a) de a nu face, creditorul este indreptätit sã ceara instantei incuviintarea de a inlătura, pe cheltuiala debitorului, ceea ce acesta din urma a facut cu incalcarea obligatiei de a nu face;",
       "b) de a face, dacă debitorul este de drept in intârziere, creditorul poate, pe cheltuiala debitorului, sã o execute el insusi;",
       "c) creditorul poate cere intotdeauna ca debitorul sã fie constrâns să execute obligatia in natura."
     ],
@@ -735,8 +735,8 @@ const questions = [
     "question": "In ceea ce priveste executarea prin echivalent a obligatiei contractuale:",
     "answers": [
       "a) daunele-interese moratorii nu pot depasi, in niciun caz, nivelul dobânzii legale;",
-      "b) la stabilirea daunelor-interese nu se fine seama, in niciun caz, de prejudicile vitoare;",
-      "c) debitorul nu se poate libera alegând plata despagubirii convenite prin clauza penala in locul executärii in natur a obligatiei principale."
+      "b) la stabilirea daunelor-interese nu se tine seama, in niciun caz, de prejudiciile viitoare;",
+      "c) debitorul nu se poate libera alegând plata despagubirii convenite prin clauza penala in locul executärii in natura a obligatiei principale."
     ],
     "correctIndexes": [
       2
@@ -747,8 +747,8 @@ const questions = [
     "question": "In ceea ce priveste rezolutiunea unilaterala:",
     "answers": [
       "a) declaratia de rezolutiune nu poate, in niciun caz, sa priveasca o parte a contractului;",
-      "b) declaratia de rezolutine sau de reziliere trebuie facuta in termenul de prescriptie prevazut de lege pentru actiunea corespunzatoare acestora",
-      "c) declaratia de rezolutine este irevocabila, de la data comunicarii ei catre debitor."
+      "b) declaratia de rezolutiune sau de reziliere trebuie facuta in termenul de prescriptie prevazut de lege pentru actiunea corespunzatoare acestora;",
+      "c) declaratia de rezolutiune este irevocabila, de la data comunicarii ei catre debitor."
     ],
     "correctIndexes": [
       1,
@@ -807,11 +807,11 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "In ipoteza in care o persoană cumpară un autoturism second-hand (deja folosit) adus din strinatate, in scopul de a-l conduce pe drumurile publice, insã, ulterior achizitionării, descopera ca acesta nu poate fi inmatriculat, aspect pe care vânzatorul il cunostea, dar i l-a ascuns, aceasta persoană are deschisă:",
+    "question": "In ipoteza in care o persoană cumpară un autoturism second-hand (deja folosit) adus din strainatate, in scopul de a-l conduce pe drumurile publice, insã, ulterior achizitionării, descopera ca acesta nu poate fi inmatriculat, aspect pe care vânzatorul il cunostea, dar i l-a ascuns, aceasta persoană are deschisă:",
     "answers": [
-      "a) exclusiv o actine in anulare pentru eroare asupra bunului mobil (obiect derivat al contractului de vânzare-cumpãrare);",
-      "b) atât o actine in anularea contractului, cât si o actiune in răspundere pentru prejudicile suferite;",
-      "c) exclusiv o actine in anulare pentru dol, chiar dacã acesta provine de la reprezentantul, prepusul ori gerantul afacerilor celeilalte parti."
+      "a) exclusiv o actiune in anulare pentru eroare asupra bunului mobil (obiect derivat al contractului de vânzare-cumpãrare);",
+      "b) atât o actiune in anularea contractului, cât si o actiune in răspundere pentru prejudiciile suferite;",
+      "c) exclusiv o actiune in anulare pentru dol, chiar dacã acesta provine de la reprezentantul, prepusul ori gerantul afacerilor celeilalte parti."
     ],
     "correctIndexes": [
       1
@@ -846,9 +846,9 @@ const questions = [
   {
     "question": "In materia imputatiei platii:",
     "answers": [
-      "a) debitorul mai multor datori care au ca obiect bunuri de acelasi fel are dreptul sa indice, atunci când plateste, datoria pe care intelege sa o execute;",
-      "b) debitorul poate, fara consimământul creditorului, sã impute plata asupra unei datori care nu este inca exigibila cu preferina fata de o datorie scadenta:",
-      "c) atunci când creditorul remite debitorului o chitant liberatorie, el este dator sa facã imputatia prin acea chitanta."
+      "a) debitorul mai multor datorii care au ca obiect bunuri de acelasi fel are dreptul sa indice, atunci când plateste, datoria pe care intelege sa o execute;",
+      "b) debitorul poate, fara consimământul creditorului, sã impute plata asupra unei datorii care nu este inca exigibila cu preferinta fata de o datorie scadenta:",
+      "c) atunci când creditorul remite debitorului o chitanta liberatorie, el este dator sa facã imputatia prin acea chitanta."
     ],
     "correctIndexes": [
       0,
@@ -884,9 +884,9 @@ const questions = [
   {
     "question": "Gestiunea de afaceri:",
     "answers": [
-      "a) confera dreptul gerantului sa cear instantei inscrierea in cartea funciar a unei ipoteci legale, in conditiile legii;",
+      "a) confera dreptul gerantului sa ceara instantei inscrierea in cartea funciara a unei ipoteci legale, in conditiile legii;",
       "b) dacã este inoportunã, nu poate obliga geratul la restituirea cheltuielilor;",
-      "c) obligã gerantul s actioneze cu diligenta pe care o manifestã in propriile afaceri."
+      "c) obligã gerantul sa actioneze cu diligenta pe care o manifestã in propriile afaceri."
     ],
     "correctIndexes": [
       0
@@ -896,9 +896,9 @@ const questions = [
   {
     "question": "In cazul platii nedatorate:",
     "answers": [
-      "a) obligatia de restituire nu exist in cazul accipiensului de bună-credintã,",
-      "b) actiunca in restituire poate fi exercitata numai de solvens;",
-      "c) actinea in restituire nu poate fi exercitata de creditorii chirografari pe calea actiunii revocatorii."
+      "a) obligatia de restituire nu exista in cazul accipiensului de bună-credintã;",
+      "b) actiunea in restituire poate fi exercitata numai de solvens;",
+      "c) actiunea in restituire nu poate fi exercitata de creditorii chirografari pe calea actiunii revocatorii."
     ],
     "correctIndexes": [
       2
@@ -934,9 +934,9 @@ const questions = [
   {
     "question": "In materia gestiunii de afaceri:",
     "answers": [
-      "a) mostenitorii gerantului sunt finupi sa continue gestiunea de afaceri inceputa de gerant, chiar daca nu aveau cunostinta de aceasta;",
-      "b) mostenitorii gerantului nu sunt finuti sa continue afacerile incepute de gerant, chiar dacã aveau cunostinta de aceasta, insã dovedesc ca autorul lor a actionat cu intentia de a gratifica geratul;",
-      "c) geratul trebuie s ramburseze gerantului si dobânzile aferente cheltuielilor necesare si utile pe care gerantul le-a efectuat, din ziua in care l-a instiintat pe gerat despre gestiunea inceputa."
+      "a) mostenitorii gerantului sunt tinuti sa continue gestiunea de afaceri inceputa de gerant, chiar daca nu aveau cunostiinta de aceasta;",
+      "b) mostenitorii gerantului nu sunt tinuti sa continue afacerile incepute de gerant, chiar dacã aveau cunostiinta de aceasta, insã dovedesc ca autorul lor a actionat cu intentia de a gratifica geratul;",
+      "c) geratul trebuie sa ramburseze gerantului si dobânzile aferente cheltuielilor necesare si utile pe care gerantul le-a efectuat, din ziua in care l-a instiintat pe gerat despre gestiunea inceputa."
     ],
     "correctIndexes": [
       1
@@ -960,7 +960,7 @@ const questions = [
     "question": "Constituie novatie:",
     "answers": [
       "a) modificarea termenului de executare a obligatiei sau schimbarea cuantumului datoriei initiale;",
-      "b) conventia prin care debitorul contracteaza fat de creditor o obligatic nou, care inlocuieste si stinge obligatia initialã;",
+      "b) conventia prin care debitorul contracteaza fata de creditor o obligatie noua, care inlocuieste si stinge obligatia initialã;",
       "c) refacerea unui contract nul absolut."
     ],
     "correctIndexes": [
@@ -971,9 +971,9 @@ const questions = [
   {
     "question": "In materia preluării datoriei:",
     "answers": [
-      "a) obligatia transmisã este supus regimului stabilit de normele in vigoare la data incheierii contractului de preluare a datoriei;",
+      "a) obligatia transmisã este supusa regimului stabilit de normele in vigoare la data incheierii contractului de preluare a datoriei;",
       "b) dacă creditorul a refuzat preluarea, cel care a incheiat contractul cu debitorul este obligat sa il libereze pe acesta;",
-      "c) contractul incheiat cu debitorul este considerat acceptat de creditor, daca acesta nu rspunde, in termenul rezonabil de la comunicarea contractului, stabilit in acest sens."
+      "c) contractul incheiat cu debitorul este considerat acceptat de creditor, daca acesta nu raspunde, in termenul rezonabil de la comunicarea contractului, stabilit in acest sens."
     ],
     "correctIndexes": [
       1
@@ -996,8 +996,8 @@ const questions = [
     "question": "In cazul obligatiei afectate de o conditie suspensiva:",
     "answers": [
       "a) dacă debitorul execut obligatia inainte de indeplinirea conditiei, acesta este indreptatit, chiar si dupa indeplinirea conditiei, sa ceara restituirea platii ca fiind nedatorata;",
-      "b) creditorul nu poate cere executarea obligatiei nainte de indeplinirea conditiei;",
-      "c) eficacitatea obligatie depinde de un eveniment vitor si sigur ca realizare."
+      "b) creditorul nu poate cere executarea obligatiei inainte de indeplinirea conditiei;",
+      "c) eficacitatea obligatiei depinde de un eveniment viitor si sigur ca realizare."
     ],
     "correctIndexes": [
       1
@@ -1033,7 +1033,7 @@ const questions = [
     "question": "Novatia:",
     "answers": [
       "a) prin schimbare de debitor opereaza numai cu consimământul debitorului initial, sens in care noul debitor este obligat sa-l notifice pe debitorul initial cu privire la intentia partilor de a nova;",
-      "b) consimtita de un creditor solidar nu este opozabila celorlalti creditori decât pentru partea din creant ce revine acelui creditor;",
+      "b) consimtita de un creditor solidar nu este opozabila celorlalti creditori decât pentru partea din creanta ce revine acelui creditor;",
       "c) nu trebuie doveditã."
     ],
     "correctIndexes": [
@@ -1071,7 +1071,7 @@ const questions = [
     "question": "Dacă prejudiciul a fost cauzat prin actiunea simultană a mai multor persoane, fara sa se poata stabili ca a fost cauzat sau, dupa caz, că nu putea fi cauzat prin fapta ilicita a vreuneia dintre ele, toate aceste persoane:",
     "answers": [
       "a) raspund solidar fata de victimã;",
-      "b) nu vor raspunde, in niciun caz, intr-un proces civil vizand plata despagubirilor pentru prejudicul produs prin lapta respecuva. dacã au fost achitate printr-o hotãrâre penala definitiva pentru motivul cã fapta nu a fost savârsita cu vinovatie;",
+      "b) nu vor raspunde, in niciun caz, intr-un proces civil vizand plata despagubirilor pentru prejudicul produs prin fapta respectiva. dacã au fost achitate printr-o hotãrâre penala definitiva pentru motivul cã fapta nu a fost savârsita cu vinovatie;",
       "c) nu raspund delictual, dacă existã si culpa comunã a victimei."
     ],
     "correctIndexes": [
@@ -1083,8 +1083,8 @@ const questions = [
     "question": "Imposibilitatea de executare a obiectului obligatiei:",
     "answers": [
       "a) constând in predarea unor bunuri de gen, din cauza unui eveniment asimilat cazului fortuit poate fi invocat numai pe calea notificarii transmise creditorului intr-un termen rezonabil;",
-      "b) daca este totala si definitiva si priveste o obligatie contractuala important, contractul este desfiintat de plin drept si far vreo notificare, chiar din momentul producerii evenimentului fortuit;",
-      "c) daca este material sau juridica, dar temporar si relativa, la data incheierii contractului, nu afecteaza valabilitatea acestuia, afar de cazul când legea prevede altfel."
+      "b) daca este totala si definitiva si priveste o obligatie contractuala importanta, contractul este desfiintat de plin drept si fara vreo notificare, chiar din momentul producerii evenimentului fortuit;",
+      "c) daca este material sau juridica, dar temporar si relativa, la data incheierii contractului, nu afecteaza valabilitatea acestuia, afara de cazul când legea prevede altfel."
     ],
     "correctIndexes": [
       1,
@@ -1095,7 +1095,7 @@ const questions = [
   {
     "question": "În materia gestiunii de afaceri:",
     "answers": [
-      "a) mostenitorii gerantului sunt finuti sã continue gestinea de afaceri inceputa de gerant, chiar dacã nu aveau cunostinã de aceasta;",
+      "a) mostenitorii gerantului sunt tinuti sã continue gestiunea de afaceri inceputa de gerant, chiar dacã nu aveau cunostiintã de aceasta;",
       "b) mostenitorii gerantului nu sunt tinuti sã continue afacerile incepute de gerant, chiar dacã aveau cunostinta de aceasta, insa dovedesc că autorul lor a actionat cu intentia de a gratifica geratul;",
       "c) geratul trebuie sa ramburseze gerantului si dobânzile aferente cheltuielilor necesare si utile pe care gerantul le-a efectuat, din ziua in care l-a instiintat pe gerat despre gestiunea inceputa."
     ],
@@ -1131,10 +1131,10 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "Constitue novatie:",
+    "question": "Constituie novatie:",
     "answers": [
       "a) modificarea termenului de executare a obligatiei sau schimbarea cuantumului datoriei initiale;",
-      "b) conventia prin care debitorul contracteaza fat de creditor o obligatie nouă, care inlocuieste si stinge obligatia initialã;",
+      "b) conventia prin care debitorul contracteaza fata de creditor o obligatie nouă, care inlocuieste si stinge obligatia initialã;",
       "c) refacerea unui contract nul absolut."
     ],
     "correctIndexes": [
@@ -1157,7 +1157,7 @@ const questions = [
   {
     "question": "In materia preluării datoriei:",
     "answers": [
-      "a) obligatia transmis este supus regimului stabilit de normele in vigoare la data încheierii contractului de preluare a datoriei;",
+      "a) obligatia transmisa este supusa regimului stabilit de normele in vigoare la data încheierii contractului de preluare a datoriei;",
       "b) dacă creditorul a refuzat preluarea, cel care a incheiat contractul cu debitorul este obligat sa il libereze pe acesta;",
       "c) contractul incheiat cu debitorul este considerat acceptat de creditor, dacă acesta nu raspunde, in termenul rezonabil de la comunicarea contractului, stabilit in acest sens."
     ],
@@ -1182,7 +1182,7 @@ const questions = [
     "question": "Atunci când debitorul plateste o sumă care nu este suficient pentru a stinge cele două obligatii banesti pe care le are fata de acelasi creditor:",
     "answers": [
       "a) se va stinge mai intâi acea obligatie care devenise scadent, insă numai dacă imputatia platii o face debitorul, dearece creditorul nu poate pretinde plata anticipat;",
-      "b) debitorul poate indica obligatia pe care prefera sã o stingă cu prioritate, insa numai daca imputatia platii nu a fost deja facut de creditor;",
+      "b) debitorul poate indica obligatia pe care prefera sã o stingă cu prioritate, insa numai daca imputatia platii nu a fost deja facuta de creditor;",
       "c) obligatia mai putin oneros nu se va stinge, impotriva vointei debitorului, cu prioritate fata de obligatia mai oneroasa."
     ],
     "correctIndexes": [
@@ -1231,7 +1231,7 @@ const questions = [
     "question": "In executarea obligatiilor civile:",
     "answers": [
       "a) notificarea prin care unul dintre creditorii solidari pune in intârziere pe unul dintre codebitorii solidari produce efecte si in privinta celorlalti debitori si creditori;",
-      "b) debitorul care il pune in intârziere pe creditorul sau, ce a refuzat, in mod nejustificat, plata oferita in mod corespunztor, nu este tinut sa restitue fructele culese dupa punerea in intârziere;",
+      "b) debitorul care il pune in intârziere pe creditorul sau, ce a refuzat, in mod nejustificat, plata oferita in mod corespunzator, nu este tinut sa restituie fructele culese dupa punerea in intârziere;",
       "c) atunci când in conventia dintre creditor si debitor s-a stipulat expres ca, prin simpla implinire a termenului stabilit pentru executare, debitorul se afla de drept in intârziere, mostenitorii debitorului se vor afla de drept in intârziere, dacă obligatia devine scadenta dupa decesul debitorului."
     ],
     "correctIndexes": [
